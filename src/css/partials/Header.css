@@ -1,0 +1,52 @@
+.menu-btn {
+  stroke: black;
+
+}
+
+.header-container {
+  display: flex;
+  background: linear-gradient(180deg, #c37bfd 0%, #fdd976 100%);
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.nav-list {
+  display: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+  .menu-btn {
+
+    display: none;
+  }
+
+  .logo {
+    margin: 42px 0;
+  }
+
+  .header-container {
+    padding: 44px 65px 38px 81px;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 38px;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: 752px;
+  }
+
+  .nav-list-item:nth-child(10) {
+    margin-right: 32px;
+  }
+}

@@ -11,8 +11,17 @@
 @import url('./animations.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+@import url('./partials/AutoSave.css');
+@import url('./partials/About.css');
+@import url('./partials/Characters.css');
+@import url('./partials/Contact.css');
+@import url('./partials/Download.css');
+@import url('./partials/DualRealms.css');
+@import url('./partials/Footer.css');
+@import url('./partials/Header.css');
+@import url('./partials/Hero.css');
+@import url('./partials/HowPlay.css');
+@import url('./partials/Key.css');
+@import url('./partials/Level.css');
+@import url('./partials/Magic.css');
+@import url('./partials/Tale.css');
