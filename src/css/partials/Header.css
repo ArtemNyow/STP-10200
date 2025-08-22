@@ -1,5 +1,21 @@
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
 .menu-btn {
   stroke: black;
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+
 }
 
 .header-container {
@@ -15,19 +31,27 @@
 
 
 
+
+
+
+
+
+
 @media screen and (min-width: 1200px) {
 
   .menu-btn {
-
     display: none;
   }
 
   .logo {
     margin: 42px 0;
+    margin-right: 222px;
+    width: 80px;
+    height: 80px;
   }
 
   .header-container {
-    padding: 44px 65px 38px 81px;
+    padding: 0 66px 0 81px;
   }
 
   .nav-list {
@@ -35,7 +59,6 @@
     gap: 38px;
     flex-wrap: wrap;
     justify-content: end;
-    width: 752px;
   }
 
   .nav-list-item:nth-child(10) {
