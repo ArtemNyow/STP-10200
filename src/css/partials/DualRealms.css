@@ -3,37 +3,54 @@
 .container {
 }
 .dualRealms-container {
-  /* background: #d9d8d8; */
+  background-image: image-set(
+      url('/img/DualRealms/1x/mobiPhoneXDay@1x.webp') 1x,
+      url('/img/DualRealms/2x/mobiPhoneXDay@2x.webp') 2x
+    ),
+    image-set(
+      url('/img/DualRealms/1x/mobiPhoneXNight@1x.webp') 1x,
+      url('/img/DualRealms/2x/mobiPhoneXNight@2x.webp') 2x
+    ),
+    image-set(
+      url('/img/DualRealms/1x/day@1x_2.webp') 1x,
+      url('/img/DualRealms/2x/day@2x_2.webp') 2x
+    );
+  background-repeat: no-repeat, no-repeat, no-repeat;
 
-  background-image: url('/img/DualRealms/1x/day@1x.webp'),
-    url('/img/DualRealms/1x/night@1x.webp'),
-    url('/img/DualRealms/1x/iPhoneXDay@1x.webp'),
-    url('/img/DualRealms/1x/iPhoneXNight@1x.webp');
-
-  background-position: left top, right top, left bottom, right bottom;
-
-  background-size: 50% auto, 50% auto, 30% auto, 10% auto;
-
-  background-repeat: no-repeat;
+  background-position: 25px 272px, 185px 272px, center;
+  background-size: 37% auto, 37% auto, 100% auto;
+  max-width: 320px;
+  margin: 0 auto;
 }
 .dualRealms-title {
   padding-top: 26px;
+  padding-bottom: 240px;
+  width: 288px;
   font: 600 30px 'Comfortaa', sans-serif;
   text-align: center;
-  color: #0b0a0a;
-  width: 288px;
-  display: block;
+
+  background: linear-gradient(to right, #0b0a0a 50%, white 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
   margin: 0 auto;
-  padding-bottom: 240px;
 }
-.dualRealms-title-span {
-  color: #fbfbfb;
-}
+
 .dualRealms-text-div {
+  width: 320px;
+  height: 102px;
   display: flex;
   gap: 18px;
   text-align: center;
   justify-content: center;
+  background: linear-gradient(to right, #2fbef8 50%, #4285f4 50%);
+  margin: 0 auto;
 }
 .dualRealms-text {
   width: 141px;
@@ -41,5 +58,46 @@
   text-align: center;
   color: #0b0a0a;
 
-  padding: 15px, 9px;
+  padding-top: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+  .dualRealms-title {
+    padding-top: 68px;
+    padding-bottom: 480px;
+    width: 634px;
+    font-size: 40px;
+  }
+  .dualRealms-text-div {
+    width: 1200px;
+    height: 128px;
+    gap: 188px;
+  }
+  .dualRealms-text {
+    width: 450px;
+    font-size: 24px;
+    text-align: center;
+    color: #0b0a0a;
+    padding-top: 37px;
+  }
+  .dualRealms-container {
+    background-image: image-set(
+        url('/img/DualRealms/1x/iPhoneXDay@1x.webp') 1x,
+        url('/img/DualRealms/2x/tabPhoneXDay@2x.webp') 2x
+      ),
+      image-set(
+        url('/img/DualRealms/1x/iPhoneXNight@1x.webp') 1x,
+        url('/img/DualRealms/2x/tabPhoneXNight@2x.webp') 2x
+      ),
+      image-set(
+        url('/img/DualRealms/1x/tabday@1x_2.webp') 1x,
+        url('/img/DualRealms/2x/tabday@2x_2.webp') 2x
+      );
+
+    background-repeat: no-repeat, no-repeat, no-repeat;
+
+    background-position: 140px 287px, 700px 287px, center;
+    background-size: 29% auto, 29% auto, 100% 100%;
+    max-width: 1200px;
+  }
 }
