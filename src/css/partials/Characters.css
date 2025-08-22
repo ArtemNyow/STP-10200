@@ -1,8 +1,8 @@
 .characters-container {
   padding-top: 34px;
   padding-bottom: 60px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   background: linear-gradient(180deg, #ffda71 9.62%, #be8cfd 100%);
   align-items: center;
   justify-content: space-between;
@@ -93,7 +93,7 @@
   margin-left: 2px;
 }
 .item4 {
-  width: 265.24px;
+  width: 226px;
   margin-left: 60px;
 }
 .item5 {
@@ -149,7 +149,7 @@
     background-image: url('/img/Characters/2x/Felix@2x.webp');
   }
   .Merry {
-    background-image: url('/img/Characters/2x/Merry@2x.webp_2');
+    background-image: url('/img/Characters/2x/Merry@2x_2.webp');
   }
   .Masked {
     background-image: url('/img/Characters/2x/Masked@2x.webp');
