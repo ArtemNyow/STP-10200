@@ -1,0 +1,244 @@
+.characters-container {
+  padding-top: 34px;
+  padding-bottom: 60px;
+  /* display: flex;
+  flex-direction: column; */
+  background: linear-gradient(180deg, #ffda71 9.62%, #be8cfd 100%);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.characters-title {
+  font: 600 30px 'Comfortaa', sans-serif;
+  text-align: center;
+  color: #0b0a0a;
+  width: 296px;
+
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.characters-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 226px;
+  text-align: center;
+}
+
+.characters-subtitel {
+  font: 400 20px 'Comfortaa', sans-serif;
+  color: #0b0a0a;
+  margin: -42px;
+  margin-bottom: -8px;
+  text-align: center;
+  border-radius: 44px;
+  width: 182px;
+  height: 50px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.violet {
+  background: #b47bfd;
+}
+.blue {
+  background: #47bde7;
+}
+.yellow {
+  background: #ffa500;
+  width: 240px;
+  height: 87px;
+  width: 184px;
+  height: 65px;
+  margin: -44px;
+  margin-bottom: -23px;
+}
+.pink {
+  background: #ff3afc;
+}
+.green {
+  background: #06e775;
+  width: 182px;
+  height: 62px;
+  margin-bottom: -20px;
+}
+.characters-text {
+  text-align: center;
+  font: 400 16px 'Comfortaa', sans-serif;
+  color: #0b0a0a;
+  width: 283px;
+  padding-top: 22px;
+  padding-bottom: 36px;
+  margin: 0 auto;
+}
+
+.text-3 {
+  padding-top: 37px;
+}
+
+.text-5 {
+  padding-top: 34px;
+  padding-bottom: 0px;
+}
+
+.item1 {
+  margin-left: 2px;
+}
+.item2 {
+  margin-left: 60px;
+}
+.item3 {
+  margin-left: 2px;
+}
+.item4 {
+  width: 226px;
+  margin-left: 60px;
+}
+.item5 {
+  margin-left: 2px;
+}
+.image-block {
+  display: flex;
+  width: 100%;
+  height: 224px;
+  border-radius: 44px;
+  background-position: top;
+  background-repeat: no-repeat;
+  justify-content: flex-end;
+  align-items: flex-end;
+  box-sizing: border-box;
+  background-size: cover;
+  padding: 0;
+}
+
+.Luna {
+  background-image: url('/img/Characters/1x/Luna@1x.webp');
+}
+.Juno {
+  background-image: url('/img/Characters/1x/Juna@1x.webp');
+  justify-content: flex-start;
+}
+.Felix {
+  background-image: url('/img/Characters/1x/Felix@1x.webp');
+}
+.Merry {
+  background-image: url('/img/Characters/1x/Merry@1x_2.webp');
+  justify-content: flex-start;
+}
+.Masked {
+  background-image: url('/img/Characters/1x/Masked@1x.webp');
+}
+
+.image-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 44px;
+  display: block;
+}
+@media screen and (min-resolution: 192dpi) {
+  .Luna {
+    background-image: url('/img/Characters/2x/Luna@2x.webp');
+  }
+  .Juno {
+    background-image: url('/img/Characters/2x/Juna@2x.webp');
+  }
+  .Felix {
+    background-image: url('/img/Characters/2x/Felix@2x.webp');
+  }
+  .Merry {
+    background-image: url('/img/Characters/2x/Merry@2x_2.webp');
+  }
+  .Masked {
+    background-image: url('/img/Characters/2x/Masked@2x.webp');
+  }
+}
+@media screen and (min-width: 1200px) {
+  .characters-title {
+    font-size: 40px;
+    width: 484px;
+    margin-bottom: 68px;
+    padding-bottom: 0;
+  }
+  .characters-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .characters-item {
+    width: 262px;
+  }
+  .characters-item.item4 {
+    width: 346px;
+  }
+
+  .characters-subtitel {
+    font-size: 24px;
+    margin: -21px;
+    margin-bottom: -14px;
+    width: 199px;
+    height: 58px;
+  }
+
+  .yellow {
+    width: 240px;
+    height: 87px;
+    margin: -37px;
+    margin-bottom: -43px;
+  }
+  .characters-text {
+    margin-top: 30px;
+    font-size: 20px;
+    padding-top: 0;
+  }
+  .text-1 {
+    width: 321px;
+    padding-bottom: 59px;
+  }
+  .text-2 {
+    width: 326px;
+  }
+  .text-3 {
+    width: 271px;
+    padding-bottom: 59px;
+    margin-top: 61px;
+  }
+  .text-5 {
+    margin-top: 31px;
+  }
+  .text-5 {
+    width: 322px;
+
+    margin-top: 43px;
+  }
+
+  .item3 {
+    margin-left: 469px;
+    margin-right: 469px;
+  }
+  .center {
+  }
+  .item4 {
+    width: 346px;
+
+    margin-left: 218px;
+    margin-right: 148px;
+  }
+  .item5 {
+  }
+  .item1 {
+    margin-left: 219px;
+    margin-right: 231px;
+  }
+
+  .Juno {
+    justify-content: flex-end;
+  }
+  .Merry {
+    justify-content: center;
+  }
+  .image-block {
+    height: 292px;
+  }
+}
