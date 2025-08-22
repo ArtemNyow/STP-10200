@@ -1,0 +1,133 @@
+.hero-container {
+    background: linear-gradient(to right, black 50%, white 50%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: image-set(url("../img/Hero/1x/hero-bg@1x.webp") 1x,
+            url("../img/Hero/2x/hero-bg@2x.webp") 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.hero-title-up {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 26px;
+    margin-top: 36px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.hero-title-down {
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.googlebtn-link {
+    display: inline-block;
+    width: 290px;
+    height: 80px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.googlebtn-link img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.googlebtn-link:hover,
+.googlebtn-link:focus {
+    border: 1px solid #c27bfd;
+    box-shadow: 4px 4px 4px 0 #9747ff;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 17px;
+    margin-bottom: 40px;
+}
+
+.hero-list {
+    margin-left: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 28px;
+}
+
+.hero-list-item {
+    display: flex;
+    align-content: center;
+    gap: 16px;
+}
+
+
+
+
+.img-hero-list {
+    width: 100px;
+
+}
+
+.hero-list-text {
+    font-weight: 400;
+    font-size: 18px;
+    width: 140px;
+    height: 80px;
+}
+
+
+.hero-list-item:nth-child(2) {
+    flex-direction: row-reverse;
+    margin-right: 52px;
+}
+
+.hero-list-item:nth-child(2) .hero-list-text {
+    text-align: right;
+}
+
+.hero-list-item:nth-child(1) .hero-list-text {
+    padding-top: 25px;
+}
+
+.hero-horse {
+    width: 67px;
+    height: 85px;
+
+    background-image: url("../img/Hero/1x/dont-puch-the horses@1x.webp");
+    background-image: image-set(url("../img/Hero/1x/dont-puch-the horses@1x.webp") 1x,
+            url("../img/Hero/2x/dont-puch-the horses@2x.webp") 2x);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
