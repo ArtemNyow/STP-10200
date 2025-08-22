@@ -1,0 +1,133 @@
+.chest {
+    position: absolute;
+    top: 90px;
+    left: 240px;
+    width: 79px;
+    height: 78px;
+    background-image: image-set(url("../img/About/1x/Chest@1x.webp") 1x,
+            url("../img/About/2x/Chest@2x.webp") 2x);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+
+.about-container {
+    background-color: #2fbef8;
+    padding-top: 34px;
+    padding-bottom: 18px;
+    position: relative;
+
+}
+
+
+.about-title {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.about-wraper-main {
+    border-radius: 44px;
+    padding: 30px 18px;
+    width: 288px;
+    height: 318px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #ffda71;
+    margin-bottom: 10px;
+
+
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.about-list-wrap {
+    display: flex;
+    border-radius: 44px;
+    align-items: center;
+    padding-top: 5px;
+    justify-content: center;
+    width: 288px;
+    height: 95px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #ffda71;
+}
+
+.sticker-img {
+    width: 18px;
+    height: 18px;
+}
+
+.about-list-text {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 250px;
+    display: flex;
+}
+
+@media screen and (min-width: 1200px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-title {
+        font-size: 40px;
+    }
+
+    .chest {
+        width: 176px;
+        height: 176px;
+        top: 30px;
+        left: 920px;
+    }
+
+    .about-wraper-main {
+        border-radius: 44px;
+        padding: 30px 22px;
+        width: 834px;
+        height: 272px;
+        margin-bottom: 23px;
+    }
+
+    .about-text {
+        font-size: 24px;
+
+    }
+
+    .about-list {
+        flex-direction: row;
+        gap: 70px;
+    }
+
+
+    .about-list-wrap {
+        border-radius: 44px;
+        padding: 72px 9px;
+        width: 230px;
+        height: 222px;
+    }
+
+    .about-sticker {
+        margin-top: 2px;
+    }
+
+    .about-list-text {
+        font-size: 20px;
+        width: 170px;
+    }
+}
