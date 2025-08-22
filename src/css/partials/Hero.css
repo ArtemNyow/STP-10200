@@ -1,0 +1,222 @@
+.hero-container {
+    background: linear-gradient(to right, black 50%, white 50%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: image-set(url("../img/Hero/1x/hero-bg@1x.webp") 1x,
+            url("../img/Hero/2x/hero-bg@2x.webp") 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.hero-title-up {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 26px;
+    margin-top: 36px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.hero-title-down {
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.googlebtn-link {
+    display: inline-block;
+    width: 290px;
+    height: 80px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 34px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+
+.googlebtn-link:hover,
+.googlebtn-link:focus {
+    border: 1px solid #c27bfd;
+    box-shadow: 4px 4px 4px 0 #9747ff;
+}
+
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 17px;
+
+}
+
+.hero-list {
+    margin-left: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 28px;
+    margin-bottom: 79px;
+
+}
+
+
+
+.hero-list-item {
+    display: flex;
+    align-content: center;
+    gap: 16px;
+}
+
+.img-hero-list {
+    width: 100px;
+
+
+}
+
+.hero-list-text {
+    font-weight: 400;
+    font-size: 18px;
+    width: 140px;
+    height: 80px;
+}
+
+
+.hero-list-item:nth-child(2) {
+    flex-direction: row-reverse;
+    margin-right: 52px;
+}
+
+.hero-list-item:nth-child(2) .hero-list-text {
+    text-align: right;
+}
+
+.hero-list-item:nth-child(1) .hero-list-text {
+    padding-top: 25px;
+}
+
+.hero-horse {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    width: 67px;
+    height: 85px;
+    background-image: image-set(url("../img/Hero/1x/dont-puch-the horses@1x.webp") 1x,
+            url("../img/Hero/2x/dont-puch-the horses@2x.webp") 2x);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+
+    .hero-container {}
+
+    .hero-title-up {
+        margin-top: 88px;
+        margin-bottom: 20px;
+    }
+
+    .hero-title {
+        margin-bottom: 19px;
+    }
+
+    .hero-title-down {
+        margin-bottom: 39px;
+    }
+
+    .hero-wrap {
+        flex-direction: column-reverse;
+        margin-bottom: 57px;
+        gap: 68px;
+    }
+
+    .googlebtn-link {
+        margin-bottom: 0;
+        width: 218px;
+        height: 65px;
+    }
+
+    .googleBtn-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-text {
+        width: 640px;
+
+    }
+
+    .hero-list {
+        flex-direction: row;
+        justify-content: center;
+        gap: 77px;
+        margin-left: 0;
+    }
+
+    .hero-list-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-hero-list {}
+
+    .hero-list-text {
+        text-align: center;
+        width: 165px;
+    }
+
+    .hero-list-item:nth-child(2) {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .hero-list-item:nth-child(2) .hero-list-text {
+        text-align: center;
+    }
+
+    .hero-list-item:nth-child(1) .hero-list-text {
+        padding-top: 0px;
+    }
+
+    .hero-horse {
+        width: 155px;
+        height: 198px;
+    }
+}
