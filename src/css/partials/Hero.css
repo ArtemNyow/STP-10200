@@ -52,15 +52,10 @@
     border-radius: 12px;
     overflow: hidden;
     box-sizing: border-box;
+    margin-bottom: 34px;
 }
 
-.googlebtn-link img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    border-radius: inherit;
-}
+
 
 .googlebtn-link:hover,
 .googlebtn-link:focus {
@@ -68,12 +63,19 @@
     box-shadow: 4px 4px 4px 0 #9747ff;
 }
 
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
 .hero-text {
     font-weight: 400;
     font-size: 16px;
     text-align: center;
     padding: 0 17px;
-    margin-bottom: 40px;
+
 }
 
 .hero-list {
@@ -89,9 +91,6 @@
     align-content: center;
     gap: 16px;
 }
-
-
-
 
 .img-hero-list {
     width: 100px;
@@ -130,4 +129,83 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+
+    .hero-container {}
+
+    .hero-title-up {
+        margin-top: 88px;
+        margin-bottom: 20px;
+    }
+
+    .hero-title {
+        margin-bottom: 19px;
+    }
+
+    .hero-title-down {
+        margin-bottom: 39px;
+    }
+
+    .hero-wrap {
+        flex-direction: column-reverse;
+        margin-bottom: 57px;
+        gap: 68px;
+    }
+
+    .googlebtn-link {
+        margin-bottom: 0;
+        width: 218px;
+        height: 65px;
+    }
+
+    .googleBtn-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-text {
+        width: 640px;
+
+    }
+
+    .hero-list {
+        flex-direction: row;
+        justify-content: center;
+        gap: 77px;
+        margin-left: 0;
+    }
+
+    .hero-list-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-hero-list {}
+
+    .hero-list-text {
+        text-align: center;
+        width: 175px;
+    }
+
+    .hero-list-item:nth-child(2) {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .hero-list-item:nth-child(2) .hero-list-text {
+        text-align: center;
+    }
+
+    .hero-list-item:nth-child(1) .hero-list-text {
+        padding-top: 0px;
+    }
+
+    .hero-horse {
+        width: 155px;
+        height: 198px;
+    }
 }
