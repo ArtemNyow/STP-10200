@@ -1,0 +1,57 @@
+.tale {}
+
+.container {}
+
+.tale-container {
+    background: #2fbef8;
+    padding-top: 32px;
+    padding-bottom: 52px;
+}
+
+.tale-title {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #0b0a0a;
+    margin-bottom: 16px;
+}
+
+.tale-img {
+    width: 288px;
+    height: 243px;
+    margin-bottom: 22px;
+
+}
+
+.tale-text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #0b0a0a;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .tale-wrap {
+        display: flex;
+        gap: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tale-title {
+        font-size: 40px;
+        margin-bottom: 32px;
+    }
+
+    .tale-img {
+        width: 428px;
+        height: 428px;
+    }
+
+    .tale-text {
+        width: 528px;
+        font-size: 24px;
+        letter-spacing: 0.02em;
+    }
+}
