@@ -1,0 +1,45 @@
+.dualRealms {
+}
+.container {
+}
+.dualRealms-container {
+  /* background: #d9d8d8; */
+
+  background-image: url('/img/DualRealms/1x/day@1x.webp'),
+    url('/img/DualRealms/1x/night@1x.webp'),
+    url('/img/DualRealms/1x/iPhoneXDay@1x.webp'),
+    url('/img/DualRealms/1x/iPhoneXNight@1x.webp');
+
+  background-position: left top, right top, left bottom, right bottom;
+
+  background-size: 50% auto, 50% auto, 30% auto, 10% auto;
+
+  background-repeat: no-repeat;
+}
+.dualRealms-title {
+  padding-top: 26px;
+  font: 600 30px 'Comfortaa', sans-serif;
+  text-align: center;
+  color: #0b0a0a;
+  width: 288px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 240px;
+}
+.dualRealms-title-span {
+  color: #fbfbfb;
+}
+.dualRealms-text-div {
+  display: flex;
+  gap: 18px;
+  text-align: center;
+  justify-content: center;
+}
+.dualRealms-text {
+  width: 141px;
+  font: 400 16px 'Comfortaa', sans-serif;
+  text-align: center;
+  color: #0b0a0a;
+
+  padding: 15px, 9px;
+}
