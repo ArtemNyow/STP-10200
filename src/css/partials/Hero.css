@@ -17,12 +17,14 @@
 
 .hero {
     width: 100%;
+    max-width: 1200px;
     min-height: 100vh;
     background-image: image-set(url("../img/Hero/1x/hero-bg@1x.webp") 1x,
             url("../img/Hero/2x/hero-bg@2x.webp") 2x);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
 
@@ -38,6 +40,7 @@
     font-weight: 600;
     font-size: 50px;
     text-align: center;
+    margin-right: 5px;
     margin-bottom: 9px;
 }
 
@@ -91,8 +94,6 @@
     margin-bottom: 79px;
 
 }
-
-
 
 .hero-list-item {
     display: flex;
@@ -155,6 +156,7 @@
 
     .hero-title {
         margin-bottom: 19px;
+        margin-left: 15px;
     }
 
     .hero-title-down {
