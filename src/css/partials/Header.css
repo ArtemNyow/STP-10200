@@ -38,8 +38,6 @@ nav {
 
 
 
-
-
 @media screen and (min-width: 1200px) {
 
   .menu-btn {
@@ -52,6 +50,7 @@ nav {
     width: 80px;
     height: 80px;
   }
+
 
   .header-container {
     padding: 0 66px 0 81px;

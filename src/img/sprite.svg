@@ -30,6 +30,9 @@
 <symbol id="icon-menu" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M4 16h24M4 8h24M4 24h24"></path>
 </symbol>
+<symbol id="icon-Vector" viewBox="0 0 60 32">
+<path d="M54.311 0.231l4.711 4.716-25.676 25.684c-0.411 0.414-0.901 0.743-1.439 0.967s-1.117 0.34-1.7 0.34c-0.584 0-1.162-0.115-1.701-0.34s-1.028-0.553-1.439-0.967l-25.689-25.684 4.711-4.711 24.111 24.107 24.111-24.111z"></path>
+</symbol>
 <symbol id="icon-arrow-up" viewBox="0 0 24 24">
   <path d="M12 4l-8 8h5v8h6v-8h5z"/>
 </symbol>
