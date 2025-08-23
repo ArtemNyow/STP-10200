@@ -15,7 +15,7 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s, visibility 0.3s, transform 0.2s;
-    z-index: 9999;
+    z-index: 9998;
 }
 
 .scroll-top-btn:hover {
