@@ -78,11 +78,25 @@
     display: flex;
 }
 
+.Moon {
+    display: none;
+}
+
+.Circle {
+    display: none;
+}
+
+.Park {
+    display: none;
+}
+
 @media screen and (min-width: 1200px) {
     .about-container {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 50px;
+        padding-bottom: 67px;
     }
 
     .about-title {
@@ -128,6 +142,48 @@
 
     .about-list-text {
         font-size: 20px;
-        width: 170px;
+        width: 270px;
+    }
+
+    .Moon {
+        display: block;
+        position: absolute;
+        bottom: 220px;
+        left: 460px;
+        width: 114px;
+        height: 114px;
+        background-image: image-set(url("../img/About/1x/Moon@1x.webp") 1x,
+                url("../img/About/2x/Moon@2x.webp") 2x);
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 2;
+    }
+
+    .Circle {
+        display: block;
+        position: absolute;
+        bottom: 65px;
+        right: 200px;
+        width: 65px;
+        height: 74px;
+        background-image: image-set(url("../img/About/1x/Сircle@1x.webp") 1x,
+                url("../img/About/2x/Сircle@2x.webp") 2x);
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 2;
+    }
+
+    .Park {
+        display: block;
+        position: absolute;
+        bottom: 60px;
+        left: 120px;
+        width: 112px;
+        height: 112px;
+        background-image: image-set(url("../img/About/1x/Park@1x.webp") 1x,
+                url("../img/About/2x/Park@2x.webp") 2x);
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 2;
     }
 }
