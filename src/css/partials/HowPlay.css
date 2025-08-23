@@ -1,0 +1,223 @@
+.play-container {
+    background: linear-gradient(180deg, #c37bfd 0%, #fdd976 100%);
+    padding-top: 34px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.play-title {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #0b0a0a;
+    margin-bottom: 8px;
+}
+
+.play-list-up {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+
+.play-list-up-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 44px;
+    padding: 16px 43px;
+    width: 92px;
+    height: 44px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #ffda71;
+}
+
+.play-list-up-text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #0b0a0a;
+}
+
+.play-list {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+
+.play-list-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 44px;
+    padding: 43px 14px;
+    width: 290px;
+    height: 70px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #9deffa;
+}
+
+.play-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #0b0a0a;
+}
+
+.play-list-item:nth-child(2) .play-list-text {
+    width: 260px;
+}
+
+.play-list-item:nth-child(5) .play-list-text {
+    width: 260px;
+}
+
+.circus-img {
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    rotate: -13deg;
+    width: 53px;
+    height: 52px;
+    background-image: image-set(url("../img/Play/1x/circus@1x.webp") 1x,
+            url("../img/Play/2x/circus@2x.webp") 2x);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+
+}
+
+.wheel-img {
+    position: absolute;
+    top: 230px;
+    right: 5px;
+    rotate: 13deg;
+    width: 53px;
+    height: 52px;
+    background-image: image-set(url("../img/Play/1x/wheel@1x.webp") 1x,
+            url("../img/Play/2x/wheel@2x.webp") 2x);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.horse-img {
+    position: absolute;
+    bottom: 350px;
+    left: 15px;
+    width: 53px;
+    height: 52px;
+    background-image: image-set(url("../img/Play/1x/horse@1x.webp") 1x,
+            url("../img/Play/2x/horse@2x.webp") 2x);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.chest-img {
+    position: absolute;
+    bottom: 125px;
+    right: 10px;
+    width: 53px;
+    height: 52px;
+    background-image: image-set(url("../img/About/1x/Chest@1x.webp") 1x,
+            url("../img/About/2x/Chest@2x.webp") 2x);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .play-container {
+        padding-top: 48px;
+        padding-bottom: 61px;
+        align-items: inherit;
+    }
+
+    .play-title {
+        font-size: 40px;
+        margin-bottom: 27px;
+    }
+
+    .play-list-up {
+        margin-bottom: 28px;
+        gap: 60px;
+        margin: 0 auto;
+        margin-bottom: 28px;
+    }
+
+
+    .play-list-up-wrap {
+        padding: 16px 43px;
+        width: 206px;
+        height: 58px;
+    }
+
+    .play-list-up-text {
+        font-size: 24px;
+    }
+
+    .play-list {
+        gap: 14px;
+        margin-left: 69px;
+    }
+
+
+    .play-list-wrap {
+        padding: 38px 38px;
+        width: 750px;
+        height: 92px;
+    }
+
+    .play-list-item:nth-child(even) {
+        margin-left: 281px;
+    }
+
+    .play-list-item:nth-child(2) .play-list-text {
+        width: 750px;
+    }
+
+    .play-list-item:nth-child(5) .play-list-text {
+        width: 750px;
+    }
+
+    .play-list-text {
+        font-size: 20px;
+    }
+
+    .circus-img {
+        left: 103px;
+        top: 130px;
+        width: 98px;
+        height: 120px;
+        rotate: 0deg;
+    }
+
+    .wheel-img {
+        width: 155px;
+        height: 157px;
+        rotate: 0deg;
+        right: 120px;
+        top: 185px;
+    }
+
+    .horse-img {
+        width: 144px;
+        height: 183px;
+        bottom: 260px;
+        left: 110px;
+    }
+
+    .chest-img {
+        width: 122px;
+        height: 122px;
+        bottom: 130px;
+        right: 230px;
+    }
+}
