@@ -29,6 +29,9 @@ nav {
   display: none;
 }
 
+.nav-item-link {
+  transition: color 0.3s, background-color 0.3s;
+}
 
 
 
@@ -63,5 +66,15 @@ nav {
 
   .nav-list-item:nth-child(10) {
     margin-right: 32px;
+  }
+
+  .nav-item-link:hover,
+  .nav-item-link:focus {
+    font-weight: 500;
+  }
+
+  .nav-item-link:active {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    transform: translateY(1px);
   }
 }

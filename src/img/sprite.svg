@@ -30,5 +30,9 @@
 <symbol id="icon-menu" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M4 16h24M4 8h24M4 24h24"></path>
 </symbol>
+<symbol id="icon-arrow-up" viewBox="0 0 24 24">
+  <path d="M12 4l-8 8h5v8h6v-8h5z"/>
+</symbol>
+
   </defs>
 </svg>
