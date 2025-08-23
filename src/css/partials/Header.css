@@ -35,8 +35,6 @@ nav {
 
 
 
-
-
 @media screen and (min-width: 1200px) {
 
   .menu-btn {
@@ -64,5 +62,16 @@ nav {
 
   .nav-list-item:nth-child(10) {
     margin-right: 32px;
+  }
+
+  .nav-item-link:hover,
+  .nav-item-link:focus {
+    font-weight: 500;
+  }
+
+  .nav-item-link:active {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(1px);
+
   }
 }
