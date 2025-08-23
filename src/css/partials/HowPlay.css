@@ -84,8 +84,8 @@
     rotate: -13deg;
     width: 53px;
     height: 52px;
-    background-image: image-set(url("../img/Play/1x/circus@1x.webp") 1x,
-            url("../img/Play/2x/circus@2x.webp") 2x);
+    background-image: image-set(url("/img/Play/1x/circus@1x.webp") 1x,
+            url("/img/Play/2x/circus@2x.webp") 2x);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 2;
@@ -99,8 +99,8 @@
     rotate: 13deg;
     width: 53px;
     height: 52px;
-    background-image: image-set(url("../img/Play/1x/wheel@1x.webp") 1x,
-            url("../img/Play/2x/wheel@2x.webp") 2x);
+    background-image: image-set(url("/img/Play/1x/wheel@1x.webp") 1x,
+            url("/img/Play/2x/wheel@2x.webp") 2x);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 2;
@@ -112,8 +112,8 @@
     left: 15px;
     width: 53px;
     height: 52px;
-    background-image: image-set(url("../img/Play/1x/horse@1x.webp") 1x,
-            url("../img/Play/2x/horse@2x.webp") 2x);
+    background-image: image-set(url("/img/Play/1x/horse@1x.webp") 1x,
+            url("/img/Play/2x/horse@2x.webp") 2x);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 2;
@@ -125,8 +125,8 @@
     right: 10px;
     width: 53px;
     height: 52px;
-    background-image: image-set(url("../img/About/1x/Chest@1x.webp") 1x,
-            url("../img/About/2x/Chest@2x.webp") 2x);
+    background-image: image-set(url("/img/About/1x/Chest@1x.webp") 1x,
+            url("/img/About/2x/Chest@2x.webp") 2x);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 2;

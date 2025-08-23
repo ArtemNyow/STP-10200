@@ -4,8 +4,8 @@
     left: 240px;
     width: 79px;
     height: 78px;
-    background-image: image-set(url("../img/About/1x/Chest@1x.webp") 1x,
-            url("../img/About/2x/Chest@2x.webp") 2x);
+    background-image: image-set(url("/img/About/1x/Chest@1x.webp") 1x,
+            url("/img/About/2x/Chest@2x.webp") 2x);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 2;
@@ -152,8 +152,8 @@
         left: 460px;
         width: 114px;
         height: 114px;
-        background-image: image-set(url("../img/About/1x/Moon@1x.webp") 1x,
-                url("../img/About/2x/Moon@2x.webp") 2x);
+        background-image: image-set(url("/img/About/1x/Moon@1x.webp") 1x,
+                url("/img/About/2x/Moon@2x.webp") 2x);
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 2;
@@ -166,8 +166,8 @@
         right: 200px;
         width: 65px;
         height: 74px;
-        background-image: image-set(url("../img/About/1x/Сircle@1x.webp") 1x,
-                url("../img/About/2x/Сircle@2x.webp") 2x);
+        background-image: image-set(url("/img/About/1x/Сircle@1x.webp") 1x,
+                url("/img/About/2x/Сircle@2x.webp") 2x);
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 2;
@@ -180,8 +180,8 @@
         left: 120px;
         width: 112px;
         height: 112px;
-        background-image: image-set(url("../img/About/1x/Park@1x.webp") 1x,
-                url("../img/About/2x/Park@2x.webp") 2x);
+        background-image: image-set(url("/img/About/1x/Park@1x.webp") 1x,
+                url("/img/About/2x/Park@2x.webp") 2x);
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 2;
