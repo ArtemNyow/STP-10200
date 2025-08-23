@@ -29,6 +29,9 @@ nav {
   display: none;
 }
 
+.nav-item-link {
+  transition: color 0.3s, background-color 0.3s;
+}
 
 
 
@@ -70,8 +73,7 @@ nav {
   }
 
   .nav-item-link:active {
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     transform: translateY(1px);
-
   }
 }
