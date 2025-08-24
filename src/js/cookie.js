@@ -1,0 +1,18 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const banner = document.getElementById("cookie-banner");
+  const choice = localStorage.getItem("cookieChoice");
+
+  if (!choice) {
+    banner.classList.add("show");
+  }
+
+  document.getElementById("accept-cookies").addEventListener("click", () => {
+    localStorage.setItem("cookieChoice", "accepted");
+    banner.classList.remove("show");
+  });
+
+  document.getElementById("decline-cookies").addEventListener("click", () => {
+    localStorage.setItem("cookieChoice", "declined");
+    banner.classList.remove("show");
+  });
+});
