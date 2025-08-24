@@ -95,6 +95,7 @@
     mask-image: linear-gradient(to bottom, transparent 0%, black 5%, black 95%, transparent 100%);
     mask-repeat: no-repeat;
     mask-size: 100% 100%;
+    overflow: hidden;
 }
 
 .swiper-slide {
@@ -131,7 +132,7 @@
     color: #000 !important;
     rotate: -90deg;
     left: 153px !important;
-    top: 520px !important;
+    top: 530px !important;
 }
 
 
@@ -148,6 +149,7 @@
 
     .key-list {
         align-items: center !important;
+        padding-top: 20px;
     }
 
     .key-list-wrap {
@@ -165,7 +167,8 @@
     }
 
     .swiper {
-        height: 330px;
+        height: 335px;
+        width: 750px;
     }
 
 
@@ -190,7 +193,7 @@
         color: #000 !important;
         rotate: -90deg;
         left: 600px !important;
-        top: 550px !important;
+        top: 580px !important;
     }
 
 

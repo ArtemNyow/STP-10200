@@ -1,17 +1,19 @@
 import Swiper from 'swiper';
-import { Navigation, Mousewheel, EffectCoverflow } from 'swiper/modules';
+import { Navigation, EffectCoverflow } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';
 
 document.addEventListener("DOMContentLoaded", () => {
   const keySwiper = new Swiper(".swiper", {
-    modules: [Navigation, Mousewheel, EffectCoverflow],
+    modules: [Navigation, EffectCoverflow],
     direction: "vertical",
     slidesPerView: 3,
-    spaceBetween: 20,
+    slidesPerGroup: 1,
+  
+    spaceBetween: 14,
     // centeredSlides: true, 
-    mousewheel: true,
+    // mousewheel: true,
     // loop: true, 
     // effect: 'coverflow', // дає ефект «розмитих» країв
     // coverflowEffect: {
@@ -29,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       1200: {
         slidesPerView: 3,
-        spaceBetween: 20,
+        spaceBetween: 14,
       },
     },
   });
