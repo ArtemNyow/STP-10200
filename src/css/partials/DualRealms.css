@@ -17,9 +17,10 @@
     );
   background-repeat: no-repeat, no-repeat, no-repeat;
 
-  background-position: 25px 272px, 185px 272px, center;
-  background-size: 37% auto, 37% auto, 100% auto;
-  max-width: 320px;
+  background-position: calc(25% - 30px) 277px, calc(75% + 30px) 277px,
+    center 0px;
+  background-size: 119px 242px, 119px 242px, 100% auto;
+  max-width: 375px;
   margin: 0 auto;
 }
 .dualRealms-title {
@@ -43,13 +44,16 @@
 }
 
 .dualRealms-text-div {
-  width: 320px;
   height: 102px;
   display: flex;
-  gap: 18px;
   text-align: center;
-  justify-content: center;
+  justify-content: space-around;
   background: linear-gradient(to right, #2fbef8 50%, #4285f4 50%);
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-width: 320px;
+  max-width: 375px;
   margin: 0 auto;
 }
 .dualRealms-text {
@@ -57,8 +61,10 @@
   font: 400 16px 'Comfortaa', sans-serif;
   text-align: center;
   color: #0b0a0a;
-
-  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 @media screen and (min-width: 1200px) {
@@ -69,16 +75,14 @@
     font-size: 40px;
   }
   .dualRealms-text-div {
-    width: 1200px;
+    max-width: 1200px;
     height: 128px;
-    gap: 188px;
   }
   .dualRealms-text {
     width: 450px;
     font-size: 24px;
     text-align: center;
     color: #0b0a0a;
-    padding-top: 37px;
   }
   .dualRealms-container {
     background-image: image-set(
@@ -96,8 +100,12 @@
 
     background-repeat: no-repeat, no-repeat, no-repeat;
 
-    background-position: 140px 287px, 700px 287px, center;
-    background-size: 29% auto, 29% auto, 100% 100%;
+    background-position: calc(25% - 68px) 287px, calc(75% + 68px) 287px,
+      center 0px;
+    background-size: 276px 560px, 276px 560px, 100% 100%;
     max-width: 1200px;
+  }
+  br {
+    display: inline;
   }
 }
