@@ -1,19 +1,22 @@
-.contact-section {
-}
-.container {
-}
+.contact-section {}
+
+.container {}
+
 .contact-container {
   background: #2fbef8;
   max-width: 375;
   padding-top: 34px;
   padding-bottom: 60px;
 }
+
 .contact-titel {
   font: 600 30px 'Comfortaa', sans-serif;
   text-align: center;
   color: #0b0a0a;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
+
 }
+
 .contact-text {
   font: 400 16px 'Comfortaa', sans-serif;
   text-align: center;
@@ -22,12 +25,29 @@
   width: 285px;
   margin: 0 auto;
 }
+
 .t-2 {
   padding-bottom: 28px;
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+  justify-content: center;
 }
+
+
 .t-3 {
   padding-bottom: 29px;
 }
+
+.sticker-wrap {
+  width: 104px;
+  padding-bottom: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+
 .t-4 {
   padding-bottom: 11px;
   width: 222px;
@@ -38,13 +58,19 @@
   text-align: center;
   justify-content: center;
 }
+
 .contact-icon {
+  fill: black;
 }
 
-.contact-icon:hover,
-.contact-icon:focus {
-  fill: rgba(251, 251, 251, 0.8);
+.attachment-icon {
+  width: 18px;
+  height: 18px;
+  transform: scaleX(-1);
+  rotate: 90deg;
 }
+
+
 .contact-list {
   display: flex;
   gap: 20px;
@@ -53,21 +79,25 @@
   justify-content: center;
   list-style: none;
 }
+
 .instagram {
   fill: none;
   stroke: currentColor;
 }
+
 .contact-item {
   margin: 0;
 }
-.contact-icon {
-}
-.icon-contact {
-}
+
+.contact-icon {}
+
+.icon-contact {}
+
 @media screen and (min-width: 1200px) {
   br {
     display: none;
   }
+
   .contact-container {
     max-width: 1200;
     padding-top: 104px;
@@ -79,18 +109,38 @@
 
     padding-bottom: 39px;
   }
+
   .contact-text {
     font-size: 24px;
 
     padding-bottom: 95px;
     width: 772px;
   }
+
   .t-2 {
     padding-bottom: 25px;
+
   }
+
   .t-3 {
-    padding-bottom: 91px;
+    margin: 0;
+    width: auto;
   }
+
+  .sticker-wrap {
+    width: auto;
+    padding-bottom: 0;
+    margin: 0;
+    align-items: baseline;
+
+  }
+
+  .contact-support-wrap {
+    display: flex;
+    justify-content: center;
+
+  }
+
   .t-4 {
     padding-bottom: 16px;
   }
