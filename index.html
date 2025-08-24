@@ -2,122 +2,605 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/STP-10200/favicon.svg" />
+
+    <meta
+      name="title"
+      content="Magic Funfair：Day&Night Merge – Puzzle Carnival Adventure | Digituno"
+    />
+    <meta
+      name="description"
+      content="Magic Funfair：Day&Night Merge is a magical offline puzzle game where you match, merge, and unlock a fantasy fairground that changes from day to night. Download now!"
+    />
+    <meta
+      name="keywords"
+      content="merge game, carnival puzzle, fairground merge, day night game, magical merge app, 3D puzzle, no wifi merge game, fantasy puzzle, merge adventure, android merge puzzle"
+    />
+    <meta name="author" content="Digituno" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>
+      Magic Funfair：Day&Night Merge – Puzzle Carnival Adventure | Digituno
+    </title>
     <script type="module" crossorigin src="/STP-10200/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/STP-10200/assets/styles-r6SaaQ-x.css">
+    <link rel="modulepreload" crossorigin href="/STP-10200/assets/vendor-D1zk3-7R.js">
+    <link rel="stylesheet" crossorigin href="/STP-10200/assets/vendor-HdWFjXwp.css">
+    <link rel="stylesheet" crossorigin href="/STP-10200/assets/styles-JSynH0qE.css">
   </head>
   <body>
     <header class="header">
-  <div class="container">
-    <div class="wrapper">
-      <nav class="nav">
-        <a class="nav-logo" href="./index.html" aria-label="Site logo">
-          <svg class="nav-logo-icon" width="100" height="30">
-            <use href="/STP-10200/assets/sprite-E8vg0sBb.svg#logo"></use>
-          </svg>
-        </a>
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__burger-wrapper">
-        <button type="button" class="burger-btn" data-action="open">Open menu</button>
-        <div class="burger-menu" data-visible="close">
-          <ul>
-            <li><a href="#">link-1</a></li>
-            <li><a href="#">link-2</a></li>
-            <li><a href="#">link-3</a></li>
-            <li><a href="#">link-4</a></li>
-          </ul>
-          <button type="button" class="btn-close" data-action="close">close</button>
-        </div>
-      </div>
-    </div>
+  <div class="container header-container">
+    <img
+      class="logo"
+      src="/STP-10200/assets/favicon-DZlY_JoX.png"
+      width="80"
+      height="80"
+      alt="logo"
+    />
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-item-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-item-link" href="#about">About</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-item-link" href="#play">How to Play</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-item-link" href="#key">Features</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-item-link" href="#magic">Merge Magic</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-item-link" href="#tale">The Tale</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-item-link" href="#characters">Cast</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-item-link" href="#dualrealms">Day & Night</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-item-link" href="#level">Level</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-item-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <button type="button" class="menu-btn" data-action="open">
+        <svg class="menu-btn-icon" width="20" height="20">
+          <use href="/STP-10200/assets/sprite-CV1Kw7qK.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </nav>
   </div>
 </header>
 
+    <!-- #region mobile-menu -->
+<div class="mobile-menu" data-visible="close">
+  <img
+    class="mobile-logo"
+    src="/STP-10200/assets/favicon-DZlY_JoX.png"
+    width="80"
+    height="80"
+    alt="logo"
+  />
+  <button class="mobile-close-btn" type="button" data-action="close">
+    <svg class="mobile-close-btn-icon" width="18" height="18">
+      <use href="/STP-10200/assets/sprite-CV1Kw7qK.svg#icon-close-btn"></use>
+    </svg>
+  </button>
+
+  <nav class="mobile-nav">
+    <ul class="mobile-nav-list">
+      <li class="mobile-nav-list-item">
+        <a class="mobile-nav-item-link" href="../index.html">Home</a>
+      </li>
+      <li class="mobile-nav-list-item">
+        <a class="mobile-nav-item-link" href="#about">About</a>
+      </li>
+      <li class="mobile-nav-list-item">
+        <a class="mobile-nav-item-link" href="#play">How to Play</a>
+      </li>
+      <li class="mobile-nav-list-item">
+        <a class="mobile-nav-item-link" href="#key">Features</a>
+      </li>
+      <li class="mobile-nav-list-item">
+        <a class="mobile-nav-item-link" href="#magic">Merge Magic</a>
+      </li>
+      <li class="mobile-nav-list-item">
+        <a class="mobile-nav-item-link" href="#tale">The Tale</a>
+      </li>
+      <li class="mobile-nav-list-item">
+        <a class="mobile-nav-item-link" href="#dualrealms">Day & Night</a>
+      </li>
+      <li class="mobile-nav-list-item">
+        <a class="mobile-nav-item-link" href="#level">Level</a>
+      </li>
+      <li class="mobile-nav-list-item">
+        <a class="mobile-nav-item-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<!-- #endregion mobile-menu -->
+
+
     <main>
-      <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
+      <section class="hero">
+  <div class="containter hero-container">
+    <p class="hero-title-up">Welcome to</p>
+    <h1 class="hero-title">Magic Funfair</h1>
+    <p class="hero-title-down">Play by Day. Merge by Moonlight.</p>
+
+    <div class="hero-wrap">
       <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
+        href="https://play.google.com/store/apps/details?id=com.fridaygame.merge.magic.story.funfair&hl=en&gl=us"
+        class="googlebtn-link"
         target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
       >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/STP-10200/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
+        <picture>
+          <source
+            srcset="/STP-10200/assets/GooglePlayBtn-mobile@1x-D10fUYqz.webp 1x, /STP-10200/assets/GooglePlayBtn-mobile@2x-sOs9rXN7.webp 2x"
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="/STP-10200/assets/GooglePlayBtn@1x-CQauyxCv.webp 1x, /STP-10200/assets/GooglePlayBtn@2x-Y1-bQLUO.webp 2x"
+            media="(min-width: 1200px)"
+          />
+          <img
+            class="googleBtn-img"
+            src="/STP-10200/assets/GooglePlayBtn-mobile@1x-D10fUYqz.webp"
+            alt="Google Play Button"
+          />
+        </picture>
       </a>
+      <p class="hero-text">
+        Step into a whimsical carnival where puzzles sparkle under the sun and
+        secrets awaken under the stars. Magic Funfair：Day&Night Merge is your
+        portal to a dreamlike realm of match puzzles, enchanted objects, and a
+        mysterious funfair that evolves as the day turns to night.
+      </p>
     </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
+
+    <ul class="hero-list">
+      <li class="hero-list-item">
+        <img
+          class="img-hero-list"
+          src="/STP-10200/assets/Scroll@1x-CFUSMS2q.webp"
+          srcset="/STP-10200/assets/Scroll@2x-ttYBHfpM.webp 2x"
+          alt="Scroll"
+        />
+        <p class="hero-list-text">10,000+ Downloads</p>
+      </li>
+      <li class="hero-list-item">
+        <img
+          class="img-hero-list"
+          src="/STP-10200/assets/Key@1x-jjoHDTLQ.webp"
+          srcset="/STP-10200/assets/Key@2x-CWOQck1x.webp 2x"
+          alt="Key"
+        />
+        <p class="hero-list-text">Match & Merge enchanted items</p>
+      </li>
+      <li class="hero-list-item">
+        <img
+          class="img-hero-list"
+          src="/STP-10200/assets/House@1x-B86HCl15.webp"
+          srcset="/STP-10200/assets/House@2x-uzF27Bi8.webp 2x"
+          alt="House"
+        />
+        <p class="hero-list-text">
+          Offline gameplay with dynamic day-night visuals
+        </p>
+      </li>
+    </ul>
+    <div class="hero-horse"></div>
   </div>
 </section>
 
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
+      <section class="about" id="about">
+  <div class="container about-container">
+    <h2 class="about-title">About the game</h2>
+    <div class="chest"></div>
+    <div class="about-wraper-main">
+      <p class="about-text">
+        A Magical Puzzle Adventure<br />Magic Funfair isn’t just about matching
+        — it’s about discovery. By day, you restore the abandoned fairground,
+        fixing broken rides and unraveling lost stories. At night, new secrets
+        emerge as magical versions of the objects appear for advanced merging
+        and hidden quests.
+      </p>
+    </div>
+    <ul class="about-list">
+      <li class="about-list-item">
+        <div class="about-list-wrap">
+          <div class="Park"></div>
+          <p class="about-list-text">
+            Immersive 3D puzzles with merge mechanics
+          </p>
+        </div>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
+      <li class="about-list-item">
+        <div class="about-list-wrap">
+          <div class="Moon"></div>
+          <p class="about-list-text">
+            Day-Night switch that changes the game world
+          </p>
+        </div>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
+      <li class="about-list-item">
+        <div class="about-list-wrap">
+          <div class="Circle"></div>
+          <p class="about-list-text">
+            Fairground setting filled with magical stories and surprises
+          </p>
+        </div>
       </li>
     </ul>
   </div>
-</article>
+</section>
 
+      <section class="play" id="play">
+  <div class="container play-container">
+    <h2 class="play-title">How to Play</h2>
+    <ul class="play-list-up">
+      <li class="play-list-up-item">
+        <div class="play-list-up-wrap">
+          <p class="play-list-up-text">Match</p>
+        </div>
+      </li>
+      <li class="play-list-up-item">
+        <div class="play-list-up-wrap">
+          <p class="play-list-up-text">Merge</p>
+        </div>
+      </li>
+      <li class="play-list-up-item">
+        <div class="play-list-up-wrap">
+          <p class="play-list-up-text">Enchant</p>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="play-list">
+      <li class="play-list-item">
+        <div class="circus-img"></div>
+        <div class="play-list-wrap">
+          <p class="play-list-text">
+            1.Tap and match magical 3D objects on the puzzle grid
+          </p>
+        </div>
+      </li>
+      <li class="play-list-item">
+        <div class="wheel-img"></div>
+        <div class="play-list-wrap">
+          <p class="play-list-text">2.Complete rows to earn glowing chests</p>
+        </div>
+      </li>
+      <li class="play-list-item">
+        <div class="play-list-wrap">
+          <p class="play-list-text">
+            3.Merge items to rebuild carnival attractions
+          </p>
+        </div>
+      </li>
+      <li class="play-list-item">
+        <div class="play-list-wrap">
+          <p class="play-list-text">
+            4.Unlock nighttime objects for secret paths
+          </p>
+        </div>
+      </li>
+      <li class="play-list-item">
+        <div class="horse-img"></div>
+        <div class="play-list-wrap">
+          <p class="play-list-text">
+            5.Progress through story-driven merge quests
+          </p>
+        </div>
+      </li>
+      <li class="play-list-item">
+        <div class="chest-img"></div>
+        <div class="play-list-wrap">
+          <p class="play-list-text">
+            6.Join seasonal carnival events and unlock limited-time rewards
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="key-section" id="key">
+  <div class="key-bg"></div>
+  <div class="container key-container">
+    <h2 class="key-title">Key Features</h2>
+    <p class="key-text">Why You’ll Love Magic Funfair</p>
+    <button
+      type="button"
+      class="swiper-button-next key-btn-up"
+      aria-label="next-slide"
+    >
+      <svg class="key-icon-up" width="60" height="30">
+        <use href="../img/sprite.svg#icon-arow"></use>
+      </svg>
+    </button>
+    <div class="swiper">
+      <ul class="swiper-wrapper key-list">
+        <li class="swiper-slide key-list-item">
+          <div class="key-list-wrap">
+            <p class="key-list-text">Dynamic Day & Night puzzle boards</p>
+          </div>
+        </li>
+
+        <li class="swiper-slide key-list-item">
+          <div class="key-list-wrap">
+            <p class="key-list-text">Merge Adventure with branching quests</p>
+          </div>
+        </li>
+
+        <li class="swiper-slide key-list-item">
+          <div class="key-list-wrap">
+            <p class="key-list-text">Offline Play – anytime, anywhere</p>
+          </div>
+        </li>
+
+        <li class="swiper-slide key-list-item">
+          <div class="key-list-wrap">
+            <p class="key-list-text">Magical Chest Rewards</p>
+          </div>
+        </li>
+
+        <li class="swiper-slide key-list-item">
+          <div class="key-list-wrap">
+            <p class="key-list-text">
+              Charming story with fantasy-fairground characters
+            </p>
+          </div>
+        </li>
+
+        <li class="swiper-slide key-list-item">
+          <div class="key-list-wrap">
+            <p class="key-list-text">Carnival Restoration Mode</p>
+          </div>
+        </li>
+
+        <li class="swiper-slide key-list-item">
+          <div class="key-list-wrap">
+            <p class="key-list-text">
+              Dream Mode: advanced puzzles that unlock at night
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <button
+      type="button"
+      class="swiper-button-prev key-btn-down"
+      aria-label="prev-slide"
+    >
+      <svg class="key-icon-down" width="60" height="30">
+        <use href="../img/sprite.svg#icon-arow"></use>
+      </svg>
+    </button>
+  </div>
+</section>
+
+      <section class="magic-section" id="magic">
+  <div class="container magic-container">
+    <h2 class="magic-title">Merge Magic</h2>
+    <p class="magic-text">
+      Every Match Brings You Closer to Magic Opening chests reveals:
+    </p>
+    <ul class="magic-list">
+      <li class="magic-list-item">
+        <img
+          src="/STP-10200/assets/horse-magic@1x-bKqXn2BL.webp"
+          srcset="/STP-10200/assets/horse-magic@1x-bKqXn2BL.webp 1x, /STP-10200/assets/horse-magic@2x-Bc5no3co.webp 2x"
+          alt="horse"
+          class="magic-pictures"
+        />
+        <p class="magic-list-text">1.Mergeable carnival parts</p>
+      </li>
+      <li class="magic-list-item">
+        <img
+          src="/STP-10200/assets/fairground@1x-DHZPXejd.webp"
+          srcset="/STP-10200/assets/fairground@1x-DHZPXejd.webp 1x, /STP-10200/assets/fairground@2x-B99Ojgb7.webp 2x"
+          alt="fairground"
+          class="magic-pictures"
+        />
+        <p class="magic-list-text">2.Decorative fairground items</p>
+      </li>
+      <li class="magic-list-item">
+        <img
+          src="/STP-10200/assets/nighttime@1x-gHkcMHJp.webp"
+          srcset="/STP-10200/assets/nighttime@1x-gHkcMHJp.webp 1x, /STP-10200/assets/nighttime@2x-BwnSz2_q.webp 2x"
+          alt="nighttime"
+          class="magic-pictures"
+        />
+        <p class="magic-list-text">3.Spellbound nighttime relics</p>
+      </li>
+      <li class="magic-list-item">
+        <img
+          src="./img/Magic/1x/Restoration@1x.webp"
+          srcset="./img/Magic/1x/Restoration@1x.webp 1x, ./img/Magic/2x/Restoration@2x.webp 2x"
+          alt="Restoration"
+          class="magic-pictures"
+        />
+        <p class="magic-list-text">4.Restoration kits for attractions</p>
+      </li>
+      <li class="magic-list-item">
+        <img
+          src="/STP-10200/assets/night-only@1x-CjCXSS4t.webp"
+          srcset="/STP-10200/assets/night-only@1x-CjCXSS4t.webp 1x, /STP-10200/assets/night-only@2x-P4Psn9HR.webp 2x"
+          alt="night-only"
+          class="magic-pictures"
+        />
+        <p class="magic-list-text">5.Rare night-only merge sets</p>
+      </li>
+      <li class="magic-list-item">
+        <img
+          src="/STP-10200/assets/magic-pictures@1x-DE8s6Lvm.webp"
+          srcset="/STP-10200/assets/magic-pictures@1x-DE8s6Lvm.webp 1x, /STP-10200/assets/magic-pictures@2x-CfYDXU2j.webp 2x"
+          alt="list"
+          class="magic-pictures"
+        />
+        <p class="magic-list-text">
+          6.Scrolls unlocking lore from the lost funfair
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="tale" id="tale">
+  <div class="container tale-container">
+    <h2 class="tale-title">The Tale:</h2>
+    <div class="tale-wrap">
+      <img
+        class="tale-img"
+        src="/STP-10200/assets/boy-scroll@1x-Kx2l2jtO.webp"
+        srcset="/STP-10200/assets/boy-scroll@1x-Kx2l2jtO.webp 1x, /STP-10200/assets/boy-scroll@2x-CPDJhhPU.webp 2x"
+        alt="boy"
+      />
+      <p class="tale-text">
+        The Fair That Forgot<br />
+        The Enchanted Story Behind the Puzzle — the most joyful place in the
+        world, the Magic Funfair mysteriously shut down a century ago. Now,
+        you're the new caretaker. With every merge, you unlock echoes of...
+      </p>
+    </div>
+  </div>
+</section>
+
+      <section class="characters">
+  <div class="container characters-container">
+    <h2 class="characters-title">Cast of Characters Meet the Carnival Crew</h2>
+
+    <div class="characters-grid">
+      <div >
+        <div class="characters-item item1">
+          <div class="image-block Luna">
+            <h3 class="characters-subtitel violet">Luna</h3>
+          </div>
+        </div>
+        <p class="characters-text text-1">
+          Guardian of the Night Fair. Mysterious, wise, and glowing.
+        </p>
+      </div>
+
+     <div >
+        <div class="characters-item item2">
+          <div class="image-block Juno">
+            <h3 class="characters-subtitel blue">Juno</h3>
+          </div>
+        </div>
+        <p class="characters-text text-2">
+          Repair expert who can fix anything — except the broken time wheel
+        </p>
+     </div>
+
+    <div class="characters-row">
+        <div class="characters-item item3">
+          <div class="image-block Felix">
+            <h3 class="characters-subtitel yellow">Felix the Firecracker Fox</h3>
+          </div>
+        </div>
+        <p class="characters-text text-3">
+          Mischievous guide with nighttime quests
+        </p>
+    </div>
+
+  
+       <div class="">
+          <div class="characters-item item4">
+            <div class="image-block Merry">
+              <h3 class="characters-subtitel pink">Merry Twins</h3>
+            </div>
+          </div>
+          <p class="characters-text text-2">
+            Run the day and night ticket booths. One's asleep while the other’s
+            awake
+          </p>
+       </div>
+  
+       <div>
+          <div class="characters-item item5">
+            <div class="image-block Masked">
+              <h3 class="characters-subtitel green">The Masked Maestro</h3>
+            </div>
+          </div>
+          <p class="characters-text text-5">
+            No one knows who he is… or when he appears
+          </p>
+       </div>
+      </div>
+    </div>
+  </p>
+</section>
+
+      <section class="dualRealms">
+  <div class="container dualRealms-container">
+    <h2 class="dualRealms-title">
+      Day & Night Experience <br />
+      Two Realms, One Puzzle World
+    </h2>
+  </div>
+  <div class="dualRealms-text-div">
+    <p class="dualRealms-text">
+      ☀️ Day Mode: Restoration, casual merges, basic puzzles
+    </p>
+    <p class="dualRealms-text">
+      🌙 Night Mode: Magical merges, lore quests, hidden bonuses
+    </p>
+  </div>
+</section>
+
+      <section class="autoSave">
+  <div class="container autoSave-container">
+    <ul class="autoSave-list">
+      <li class="autoSave-item">
+        <svg class="autoSave-icon">
+          <use href="/STP-10200/assets/sprite-CV1Kw7qK.svg#icon-autosave"></use>
+        </svg>
+        Auto-save for offline play
+      </li>
+      <li class="autoSave-item">
+        <svg class="autoSave-icon">
+          <use href="/STP-10200/assets/sprite-CV1Kw7qK.svg#icon-Stop"></use>
+        </svg>
+        No internet needed to enjoy either version
+      </li>
+      <li class="autoSave-item">
+        <svg class="autoSave-icon">
+          <use href="/STP-10200/assets/sprite-CV1Kw7qK.svg#icon-time"></use>
+        </svg>
+        Merges transform based on time of day
+      </li>
+    </ul>
+  </div>
+</section>
+
+      
+      
+      
     </main>
 
     <footer class="footer">
@@ -136,6 +619,16 @@
   </div>
 </footer>
 
+    <button
+  type="button"
+  id="scrollTopBtn"
+  class="scroll-top-btn"
+  aria-label="Повернутися нагору"
+>
+  <svg class="scroll-top-icon">
+    <use href="/STP-10200/assets/sprite-CV1Kw7qK.svg#icon-arrow-up"></use>
+  </svg>
+</button>
 
   </body>
 </html>
