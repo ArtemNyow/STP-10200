@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     direction: "vertical",
     slidesPerView: 3,
     slidesPerGroup: 1,
-  
+     resistanceRatio: 0,      
     spaceBetween: 14,
     // centeredSlides: true, 
     // mousewheel: true,

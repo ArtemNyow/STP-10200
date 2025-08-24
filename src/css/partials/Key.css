@@ -69,12 +69,17 @@
 .key-list-wrap {
     border-radius: 44px;
     width: 288px;
-    height: 90px;
+    height: 90px !important;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
     background: #7dd7fb;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.key-list-item {
+    height: 90px !important;
 }
 
 .key-list-text {
@@ -98,9 +103,6 @@
     overflow: hidden;
 }
 
-.swiper-slide {
-    height: 90px !important;
-}
 
 .key-btn-down {
     stroke: #000;
