@@ -1,7 +1,3 @@
-.level {}
-
-.container {}
-
 .level-container {
     background: #2fbef8;
     padding-top: 36px;
@@ -25,7 +21,6 @@
     margin-bottom: 36px;
 }
 
-.level-item {}
 
 .level-text {
     font-weight: 400;
@@ -40,33 +35,25 @@
 }
 
 .arrow-btn {
-    display: flex;
-    align-items: center;
     border: none;
     background: none;
-
-
 }
 
-.icon-arrow {}
+.icon-arrow {
+    display: flex;
+    align-items: center;
+}
 
 .swiper-level {
     height: 779px;
     overflow: hidden;
-
 }
 
-.swiper-wrapper {}
 
 .level-sublist {
     display: flex;
     flex-direction: column;
-
 }
-
-.swiper-slide {}
-
-.level-subitem {}
 
 .level-img {
     width: 288px;
@@ -82,15 +69,15 @@
     color: #0b0a0a;
 }
 
-.user-level-slider {}
+
 
 .button-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 }
 
-.user-swiper-button-prev {}
 
 @media screen and (min-width: 1200px) {
     .level {}
@@ -122,12 +109,7 @@
 
     .arrow-btn {}
 
-    .icon-arrow {
-
-        width: 80px;
-        height: 80px;
-
-    }
+    .icon-arrow {}
 
     .swiper-level {
 
@@ -142,12 +124,12 @@
 
 
     .user-swiper-button-prev {
-        margin-top: 130px;
+        margin-bottom: 200px;
         rotate: -90deg;
     }
 
     .user-swiper-button-next {
-        margin-top: 130px;
+        margin-bottom: 200px;
         rotate: 90deg;
     }
 
