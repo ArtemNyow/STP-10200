@@ -136,7 +136,9 @@
 
     }
 
-
+    .button-wrap {
+        flex-direction: row;
+    }
 
 
     .user-swiper-button-prev {
