@@ -1,0 +1,1 @@
+{"version":3,"file":"loader-Bx8ybhb5.js","sources":["../../src/js/loader.js"],"sourcesContent":["\n      window.addEventListener('load', () => {\n        document.body.classList.add('loaded');\n      });\n"],"names":[],"mappings":"ssBACM,OAAO,iBAAiB,OAAQ,IAAM,CACpC,SAAS,KAAK,UAAU,IAAI,QAAQ,CAC5C,CAAO"}
