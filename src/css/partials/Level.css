@@ -33,7 +33,7 @@
 
 }
 
-.user-swiper-button-next {
+.user-js-swiper-button-next {
     rotate: 180deg;
 }
 
@@ -47,7 +47,7 @@
     align-items: center;
 }
 
-.swiper-level {
+.js-swiper-level {
     height: 779px;
     overflow: hidden;
 }
@@ -112,7 +112,7 @@
         font-weight: 600;
     }
 
-    .swiper-level {
+    .js-swiper-level {
 
         width: 1000px;
         height: 500px;
@@ -124,12 +124,12 @@
     }
 
 
-    .user-swiper-button-prev {
+    .user-js-swiper-button-prev {
         margin-bottom: 200px;
         rotate: -90deg;
     }
 
-    .user-swiper-button-next {
+    .user-js-swiper-button-next {
         margin-bottom: 200px;
         rotate: 90deg;
     }

@@ -96,7 +96,7 @@
     width: 240px;
 }
 
-.swiper {
+.js-swiper {
     height: 320px;
     width: 300px;
     -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 5%, black 95%, transparent 100%);
@@ -116,7 +116,7 @@
 
 
 
-.swiper-wrapper {
+.js-swiper-wrapper {
     align-items: center;
     transition-timing-function: ease-in-out !important;
 
@@ -182,13 +182,13 @@
         width: auto;
     }
 
-    .swiper {
+    .js-swiper {
         height: 335px;
         width: 750px;
     }
 
 
-    .swiper-slide {
+    .js-swiper-slide {
         display: flex !important;
         justify-content: center !important;
     }
