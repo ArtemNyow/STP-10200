@@ -4,4 +4,5 @@ import './js/level';
 import './js/scroll-up';
 import './js/cookie';
 import './js/reveals';
+import './js/loader';
 

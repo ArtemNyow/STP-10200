@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     slidesPerGroup: 1,
     spaceBetween: 15,
       touchReleaseOnEdges: true,   
-    
+    loop:true,
     navigation: {
       nextEl: ".user-swiper-button-next",
       prevEl: ".user-swiper-button-prev",

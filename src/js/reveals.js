@@ -1,15 +1,12 @@
-
-window.addEventListener("load", () => {
-  document.body.classList.add("loaded");
-});
-
 const reveals = document.querySelectorAll(".reveal");
 
 const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
+  entries.forEach((entry, index) => {
     if (entry.isIntersecting) {
-      entry.target.classList.add("active");
-      observer.unobserve(entry.target); 
+      setTimeout(() => {
+        entry.target.classList.add("active");
+      }, index * 200); // кожна наступна секція через 200мс
+      observer.unobserve(entry.target);
     }
   });
 }, { threshold: 0.2 });
