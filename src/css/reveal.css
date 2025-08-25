@@ -1,0 +1,28 @@
+.reveal {
+    opacity: 0;
+    transform: translateY(-20px);
+    filter: blur(4px);
+    transition: transform 0.8s ease, opacity 0.8s ease, filter 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+}
+
+/* для екранів до 1200px */
+@media (max-width: 1200px) {
+    .reveal {
+        transform: translateY(-15px);
+        filter: blur(3px);
+    }
+}
+
+/* для екранів до 320px */
+@media (max-width: 320px) {
+    .reveal {
+        transform: translateY(-8px);
+        filter: blur(2px);
+    }
+}
