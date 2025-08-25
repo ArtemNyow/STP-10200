@@ -4,7 +4,7 @@
     background: linear-gradient(180deg, #b47bfd 0%, #ffdb72 100%);
     padding-top: 50px;
     padding-bottom: 50px;
-
+    align-items: center;
 
 }
 
@@ -22,12 +22,14 @@
     text-align: center;
     color: #0b0a0a;
     margin-bottom: 12px;
+    width: 290px;
 }
 
 .magic-list {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    max-width: 320px;
 
 }
 
@@ -58,11 +60,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .magic-section {}
-
-    .container {}
-
-    .magic-container {}
 
     .magic-title {
         font-size: 40px;
@@ -81,6 +78,7 @@
         flex-direction: row;
         justify-content: center;
         gap: 65px 138px;
+        max-width: 100%;
     }
 
     .magic-list-item {

@@ -1,5 +1,5 @@
 .autoSave {
-  max-width: 320px;
+  max-width: 100%;
   background: #ffda71;
   width: 100%;
   box-sizing: border-box;
@@ -7,6 +7,7 @@
   padding-bottom: 24px;
   margin: 0 auto;
 }
+
 .autoSave-list {
   list-style: none;
   padding: 0;
@@ -16,6 +17,7 @@
   align-items: center;
   gap: 16px;
 }
+
 .autoSave-item {
   display: flex;
   width: 260px;
@@ -32,15 +34,18 @@
   fill: #000;
   margin-right: 15px;
 }
+
 @media screen and (min-width: 1200px) {
   .autoSave {
     max-width: 1200px;
     padding-top: 45px;
     padding-bottom: 46px;
   }
+
   .autoSave-list {
     gap: 38px;
   }
+
   .autoSave-item {
     width: 600px;
     font-size: 24px;

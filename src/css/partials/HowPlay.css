@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: relative;
+
 }
 
 .play-title {
@@ -47,6 +47,7 @@
     display: flex;
     flex-direction: column;
     gap: 26px;
+    position: relative;
 }
 
 
@@ -79,8 +80,8 @@
 
 .circus-img {
     position: absolute;
-    top: 120px;
-    left: 10px;
+    top: -35px;
+    left: 0px;
     rotate: -13deg;
     width: 53px;
     height: 52px;
@@ -94,8 +95,8 @@
 
 .wheel-img {
     position: absolute;
-    top: 230px;
-    right: 5px;
+    top: 75px;
+    right: -5px;
     rotate: 13deg;
     width: 53px;
     height: 52px;
@@ -108,8 +109,8 @@
 
 .horse-img {
     position: absolute;
-    bottom: 350px;
-    left: 15px;
+    bottom: 298px;
+    left: 0px;
     width: 53px;
     height: 52px;
     background-image: image-set(url("/img/Play/1x/horse@1x.webp") 1x,
@@ -121,8 +122,8 @@
 
 .chest-img {
     position: absolute;
-    bottom: 125px;
-    right: 10px;
+    bottom: 75px;
+    right: -5px;
     width: 53px;
     height: 52px;
     background-image: image-set(url("/img/About/1x/Chest@1x.webp") 1x,
@@ -192,8 +193,8 @@
     }
 
     .circus-img {
-        left: 103px;
-        top: 130px;
+        left: 20px;
+        top: -90px;
         width: 98px;
         height: 120px;
         rotate: 0deg;
@@ -203,21 +204,21 @@
         width: 155px;
         height: 157px;
         rotate: 0deg;
-        right: 120px;
-        top: 185px;
+        right: 110px;
+        top: -35px;
     }
 
     .horse-img {
         width: 144px;
         height: 183px;
-        bottom: 260px;
-        left: 110px;
+        bottom: 200px;
+        left: 20px;
     }
 
     .chest-img {
         width: 122px;
         height: 122px;
-        bottom: 130px;
-        right: 230px;
+        bottom: 65px;
+        right: 210px;
     }
 }
