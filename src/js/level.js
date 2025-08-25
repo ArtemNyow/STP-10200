@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const levelSwiper = new Swiper(".js-swiper-level", {
     modules: [Navigation, EffectCoverflow],
     direction: "vertical",
-    slidesPerView: 2,
+    slidesPerView: 1,
     slidesPerGroup: 1,
     spaceBetween: 15,
 
     loop: true,
-      touchReleaseOnEdges: true,   
+     
    
     navigation: {
       nextEl: ".user-swiper-button-next",

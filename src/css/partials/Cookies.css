@@ -1,4 +1,4 @@
-. {
+.js-cookie-banner {
     display: none;
     position: fixed;
     bottom: 0;
@@ -14,7 +14,7 @@
     background: linear-gradient(180deg, #c37bfd 0%, #fdd976 100%);
 }
 
-..show {
+.js-cookie-banner.show {
     display: flex;
 }
 
@@ -108,7 +108,7 @@
         gap: 62px;
     }
 
-    . {
+    .js-cookie-banner {
         padding-top: 60px;
         padding-bottom: 88px;
     }
