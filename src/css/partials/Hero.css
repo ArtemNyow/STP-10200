@@ -154,11 +154,12 @@
 
     .hero-title {
         margin-bottom: 19px;
-        margin-left: 15px;
+        margin-left: 35px;
     }
 
     .hero-title-down {
         margin-bottom: 39px;
+        margin-left: 4px;
     }
 
     .hero-wrap {
