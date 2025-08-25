@@ -7,14 +7,16 @@
 .back-button {
   display: flex;
   align-items: center;
-  gap: 11px;
+  gap: 5px;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
   color: #0b0a0a;
+  margin-bottom: 40px;
 }
 
 .go-home-icon {
+  margin-bottom: 3px;
   rotate: -90deg;
   width: 22px;
   height: 11px;
@@ -41,7 +43,7 @@
 }
 
 .privacy-number-list {
-  padding-left: 16px;
+  padding-left: 14px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -58,13 +60,14 @@
   font-weight: 500;
   font-size: 14px;
   color: #0b0a0a;
+  margin-bottom: 16px;
 }
 
 .privacy-text-uper-list {
   font-weight: 300;
   font-size: 14px;
   color: #0b0a0a;
-  margin-left: -10px;
+  margin-left: -13px;
 }
 
 .privacy-point-list {
@@ -84,13 +87,39 @@
   color: #0b0a0a;
 }
 
+.privacy-link {
+  text-decoration: underline;
+}
+
 .cookies-text {
   margin-bottom: 20px;
 }
 
+.terms-poin-list {
+  margin-left: -20px;
+}
+
+.terms-numer-text {
+  margin-left: -15px;
+}
+
+.cookie-text-list {
+  margin-left: -15px;
+}
+
+.cookie-list {
+  margin-left: -20px;
+}
+
 @media screen and (min-width: 1200px) {
-  .container {
+  .container {}
+
+
+  .cookie-text-list {
+    margin-left: -25px;
   }
+
+
 
   .privacy-container {
     padding: 100px 82px;
@@ -99,7 +128,8 @@
   .back-button {
     font-size: 20px;
     align-items: baseline;
-    gap: 11px;
+    gap: 5px;
+    margin-bottom: 28px;
   }
 
   .go-home-icon {
@@ -144,7 +174,7 @@
   .privacy-text-uper-list {
     font-weight: 400;
     font-size: 24px;
-    margin-left: -20px;
+    margin-left: -25px;
   }
 
   .privacy-point-list-text {
