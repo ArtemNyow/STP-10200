@@ -2,7 +2,7 @@
     opacity: 0;
     transform: translateY(-20px);
     filter: blur(4px);
-    transition: transform 0.8s ease, opacity 0.8s ease, filter 0.8s ease;
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out, filter 0.4s ease-out;
 }
 
 .reveal.active {
@@ -14,15 +14,15 @@
 /* для екранів до 1200px */
 @media (max-width: 1200px) {
     .reveal {
-        transform: translateY(-15px);
-        filter: blur(3px);
+        transform: translateY(-12px);
+        filter: blur(2px);
     }
 }
 
 /* для екранів до 320px */
 @media (max-width: 320px) {
     .reveal {
-        transform: translateY(-8px);
-        filter: blur(2px);
+        transform: translateY(-6px);
+        filter: blur(1.5px);
     }
 }

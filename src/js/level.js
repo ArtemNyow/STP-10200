@@ -12,17 +12,18 @@ document.addEventListener("DOMContentLoaded", () => {
     slidesPerGroup: 1,
     spaceBetween: 15,
       touchReleaseOnEdges: true,   
-    loop:true,
+   
     navigation: {
       nextEl: ".user-swiper-button-next",
       prevEl: ".user-swiper-button-prev",
       },
-     
+      loop:false,
     breakpoints: {
       1200: {
         direction: "horizontal",
         slidesPerView: 3,
         spaceBetween: 26,
+         loop:true,
       },
     },
   });

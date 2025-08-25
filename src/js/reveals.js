@@ -5,10 +5,10 @@ const observer = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       setTimeout(() => {
         entry.target.classList.add("active");
-      }, index * 200); // кожна наступна секція через 200мс
+      }, index * 50); // кожна наступна секція через 200мс
       observer.unobserve(entry.target);
     }
   });
-}, { threshold: 0.2 });
+}, { threshold: 0.1 });
 
 reveals.forEach(el => observer.observe(el));
