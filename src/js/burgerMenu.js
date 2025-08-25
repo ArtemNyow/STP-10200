@@ -3,7 +3,7 @@ const closeBtnEl = document.querySelector('[data-action="close"]');
 const burgerMenuEl = document.querySelector('[data-visible]');
 
 
-const navLinks = document.querySelectorAll('.mobile-nav-item-link');
+const navLinks = document.querySelectorAll('.js-mobile-nav-item-link');
 
 
 openBtnEl.addEventListener('click', () => {

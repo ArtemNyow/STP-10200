@@ -1,4 +1,4 @@
-const reveals = document.querySelectorAll(".reveal");
+const reveals = document.querySelectorAll(".js-reveal");
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry, index) => {

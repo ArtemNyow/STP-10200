@@ -5,24 +5,14 @@ import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';
 
 document.addEventListener("DOMContentLoaded", () => {
-  const keySwiper = new Swiper(".swiper", {
+  const keySwiper = new Swiper(".js-swiper", {
     modules: [Navigation, EffectCoverflow],
     direction: "vertical",
     slidesPerView: 3,
     slidesPerGroup: 1,
      resistanceRatio: 0,      
     spaceBetween: 14,
-    // centeredSlides: true, 
-    // mousewheel: true,
-    // loop: true, 
-    // effect: 'coverflow', // дає ефект «розмитих» країв
-    // coverflowEffect: {
-    //   rotate: 0,      // поворот слайдів
-    //   stretch: 0,     // відстань між слайдами
-    //   depth: 100,     // ефект глибини
-    //   modifier: 1,
-    //   slideShadows: false,
-    // },
+ loop:true,
 
     breakpoints: {
       320: {

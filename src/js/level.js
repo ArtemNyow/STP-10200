@@ -5,25 +5,26 @@ import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';
 
 document.addEventListener("DOMContentLoaded", () => {
-  const levelSwiper = new Swiper(".swiper-level", {
+  const levelSwiper = new Swiper(".js-swiper-level", {
     modules: [Navigation, EffectCoverflow],
     direction: "vertical",
     slidesPerView: 2,
     slidesPerGroup: 1,
     spaceBetween: 15,
+
+    loop: true,
       touchReleaseOnEdges: true,   
    
     navigation: {
       nextEl: ".user-swiper-button-next",
       prevEl: ".user-swiper-button-prev",
       },
-      loop:false,
+  
     breakpoints: {
       1200: {
         direction: "horizontal",
         slidesPerView: 3,
         spaceBetween: 26,
-         loop:true,
       },
     },
   });

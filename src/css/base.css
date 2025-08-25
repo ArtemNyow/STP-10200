@@ -30,13 +30,18 @@ body {
 
 }
 
-body.loaded {
+body.js-loaded {
   opacity: 1;
 }
 
 section {
-  scroll-margin-top: 140px;
+  scroll-margin-top: 40px;
+}
 
+@media screen and (min-width: 1200px) {
+  section {
+    scroll-margin-top: 140px;
+  }
 }
 
 main {
