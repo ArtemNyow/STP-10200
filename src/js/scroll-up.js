@@ -1,4 +1,4 @@
-const scrollTopBtn = document.getElementById("js-scrollTopBtn");
+const scrollTopBtn = document.getElementById("scrollTopBtn");
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 300) {

@@ -70,8 +70,9 @@
     gap: 23px;
 }
 
+.mobile-nav-list-item {}
 
-.js-mobile-nav-item-link {
+.mobile-nav-item-link {
     text-decoration: none;
     color: #000;
     font-size: 20px;
@@ -79,7 +80,7 @@
     transition: color 0.2s ease;
 }
 
-.js-mobile-nav-item-link:hover {
+.mobile-nav-item-link:hover {
     color: #ff4d4d;
 }
 

@@ -1,11 +1,11 @@
-import swiper from 'swiper';
+import Swiper from 'swiper';
 import { Navigation, EffectCoverflow } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';
 
 document.addEventListener("DOMContentLoaded", () => {
-  const levelswiper = new swiper(".js-swiper-level", {
+  const levelSwiper = new Swiper(".swiper-level", {
     modules: [Navigation, EffectCoverflow],
     direction: "vertical",
     slidesPerView: 2,
@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
       touchReleaseOnEdges: true,   
    
     navigation: {
-      nextEl: ".user-js-swiper-button-next",
-      prevEl: ".user-js-swiper-button-prev",
+      nextEl: ".user-swiper-button-next",
+      prevEl: ".user-swiper-button-prev",
       },
       loop:false,
     breakpoints: {

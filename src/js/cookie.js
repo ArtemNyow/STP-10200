@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const banner = document.getElementById("js-cookie-banner");
+  const banner = document.getElementById("cookie-banner");
   const choice = localStorage.getItem("cookieChoice");
 
   if (!choice) {
