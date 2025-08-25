@@ -61,7 +61,6 @@
     box-sizing: border-box;
     margin-bottom: 34px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
-
     transition: border 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -148,9 +147,6 @@
 
 @media screen and (min-width: 1200px) {
 
-
-    .hero-container {}
-
     .hero-title-up {
         margin-top: 88px;
         margin-bottom: 20px;
@@ -199,7 +195,6 @@
         align-items: center;
     }
 
-    .img-hero-list {}
 
     .hero-list-text {
         text-align: center;
