@@ -5,7 +5,7 @@ const observer = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       setTimeout(() => {
         entry.target.classList.add("active");
-      }, index * 50); // кожна наступна секція через 200мс
+      }, index * 50); 
       observer.unobserve(entry.target);
     }
   });

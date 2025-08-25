@@ -11,7 +11,7 @@
     filter: blur(0);
 }
 
-/* для екранів до 1200px */
+
 @media (max-width: 1200px) {
     .reveal {
         transform: translateY(-12px);
@@ -19,7 +19,7 @@
     }
 }
 
-/* для екранів до 320px */
+
 @media (max-width: 320px) {
     .reveal {
         transform: translateY(-6px);
