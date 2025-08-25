@@ -1,7 +1,7 @@
 .chest {
     position: absolute;
-    top: 90px;
-    left: 240px;
+    top: -40px;
+    right: -10px;
     width: 79px;
     height: 78px;
     background-image: image-set(url("/img/About/1x/Chest@1x.webp") 1x,
@@ -16,8 +16,10 @@
     background-color: #2fbef8;
     padding-top: 34px;
     padding-bottom: 18px;
-    position: relative;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -29,6 +31,7 @@
 }
 
 .about-wraper-main {
+    position: relative;
     border-radius: 44px;
     padding: 30px 18px;
     width: 288px;
@@ -93,7 +96,7 @@
 @media screen and (min-width: 1200px) {
     .about-container {
         display: flex;
-        flex-direction: column;
+
         align-items: center;
         padding-top: 50px;
         padding-bottom: 67px;
@@ -106,8 +109,8 @@
     .chest {
         width: 176px;
         height: 176px;
-        top: 30px;
-        left: 920px;
+        top: -100px;
+        right: -80px;
     }
 
     .about-wraper-main {
@@ -126,6 +129,7 @@
     .about-list {
         flex-direction: row;
         gap: 70px;
+        position: relative;
     }
 
 
@@ -148,8 +152,8 @@
     .Moon {
         display: block;
         position: absolute;
-        bottom: 220px;
-        left: 460px;
+        bottom: 150px;
+        left: 280px;
         width: 114px;
         height: 114px;
         background-image: image-set(url("/img/About/1x/Moon@1x.webp") 1x,
@@ -162,10 +166,10 @@
     .Circle {
         display: block;
         position: absolute;
-        bottom: 65px;
-        right: 200px;
-        width: 65px;
-        height: 74px;
+        bottom: -5px;
+        right: 15px;
+        width: 55px;
+        height: 64px;
         background-image: image-set(url("/img/About/1x/Сircle@1x.webp") 1x,
                 url("/img/About/2x/Сircle@2x.webp") 2x);
         background-size: contain;
@@ -176,8 +180,8 @@
     .Park {
         display: block;
         position: absolute;
-        bottom: 60px;
-        left: 120px;
+        bottom: -10px;
+        left: -55px;
         width: 112px;
         height: 112px;
         background-image: image-set(url("/img/About/1x/Park@1x.webp") 1x,

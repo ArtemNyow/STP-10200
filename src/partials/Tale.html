@@ -2,15 +2,27 @@
   <div class="container tale-container">
     <h2 class="tale-title">The Tale:</h2>
     <div class="tale-wrap">
-      <img
-        class="tale-img"
-        src="./img/Tale/1x/boy-scroll@1x.webp"
-        srcset="
-          ./img/Tale/1x/boy-scroll@1x.webp 1x,
-          ./img/Tale/2x/boy-scroll@2x.webp 2x
-        "
-        alt="boy"
-      />
+      <picture>
+        <source
+          srcset="
+            ./img/Tale/1x/boy-scroll-mobile@1x.webp 1x,
+            ./img/Tale/2x/boy-scroll-mobile@2x.webp 2x
+          "
+          media="(max-width: 1199px)"
+        />
+        <source
+          srcset="
+            ./img/Tale/1x/boy-scroll@1x.webp 1x,
+            ./img/Tale/2x/boy-scroll@2x.webp 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <img
+          class="tale-img"
+          src="./img/Tale/1x/boy-scroll@1x.webp"
+          alt="boy"
+        />
+      </picture>
       <p class="tale-text">
         The Fair That Forgot<br />
         The Enchanted Story Behind the Puzzle — the most joyful place in the

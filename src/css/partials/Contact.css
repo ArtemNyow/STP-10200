@@ -53,19 +53,18 @@
   width: 222px;
   display: flex;
   align-items: center;
-  gap: 3px;
+  gap: 5px;
   margin: 0 auto;
   text-align: center;
   justify-content: center;
+  align-items: baseline;
 }
 
-.contact-icon {
-  fill: black;
-}
+
 
 .attachment-icon {
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
   transform: scaleX(-1);
   rotate: 90deg;
 }
@@ -78,20 +77,25 @@
   margin: 0 auto;
   justify-content: center;
   list-style: none;
+  align-items: stretch;
 }
 
-.instagram {
-  fill: none;
-  stroke: currentColor;
+
+.contact-icon {
+  transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.contact-icon:hover {
+  stroke: #fff;
+  fill: #fff;
+  transform: scale(1.2);
 }
 
 .contact-item {
   margin: 0;
 }
 
-.contact-icon {}
 
-.icon-contact {}
 
 @media screen and (min-width: 1200px) {
   br {
@@ -138,6 +142,12 @@
   .contact-support-wrap {
     display: flex;
     justify-content: center;
+
+  }
+
+  .attachment-icon {
+    width: 20px;
+    height: 20px;
 
   }
 

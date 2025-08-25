@@ -6,6 +6,14 @@
     background: #2fbef8;
     padding-top: 32px;
     padding-bottom: 52px;
+
+
+}
+
+.tale-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tale-title {
@@ -28,6 +36,7 @@
     font-size: 16px;
     text-align: center;
     color: #0b0a0a;
+    max-width: 320px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -37,6 +46,7 @@
         gap: 80px;
         align-items: center;
         justify-content: center;
+        flex-direction: row;
     }
 
     .tale-title {
@@ -50,8 +60,9 @@
     }
 
     .tale-text {
-        width: 528px;
+        max-width: 528px;
         font-size: 24px;
         letter-spacing: 0.02em;
+
     }
 }
