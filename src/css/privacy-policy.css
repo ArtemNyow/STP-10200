@@ -1,0 +1,154 @@
+.privacy-container {
+  background: #fbe9b4;
+  padding-top: 20px;
+  padding-bottom: 46px;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #0b0a0a;
+}
+
+.go-home-icon {
+  rotate: -90deg;
+  width: 22px;
+  height: 11px;
+}
+
+.privacy-title {
+  font-weight: 600;
+  font-size: 22px;
+  color: #0b0a0a;
+  margin-bottom: 20px;
+}
+
+.privacy-under-title {
+  font-weight: 300;
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.privacy-text {
+  font-weight: 300;
+  font-size: 14px;
+  color: #0b0a0a;
+}
+
+.privacy-number-list {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.privacy-number-list,
+.privacy-number-list-item::marker {
+  font-weight: 300;
+  font-size: 14px;
+  color: #0b0a0a;
+}
+
+.privacy-text-point {
+  font-weight: 500;
+  font-size: 14px;
+  color: #0b0a0a;
+}
+
+.privacy-text-uper-list {
+  font-weight: 300;
+  font-size: 14px;
+  color: #0b0a0a;
+  margin-left: -10px;
+}
+
+.privacy-point-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-left: -10px;
+}
+
+.privacy-point-list,
+.privacy-point-list-text::marker {
+  font-size: 10px;
+}
+
+.privacy-point-list-text {
+  font-weight: 300;
+  font-size: 14px;
+  color: #0b0a0a;
+}
+
+.cookies-text {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+  }
+
+  .privacy-container {
+    padding: 100px 82px;
+  }
+
+  .back-button {
+    font-size: 20px;
+    align-items: baseline;
+    gap: 11px;
+  }
+
+  .go-home-icon {
+    height: 20px;
+    width: 40px;
+  }
+
+  .privacy-title {
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  .privacy-number-list {
+    margin-left: 12px;
+  }
+
+  .privacy-under-title {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .privacy-text {
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .privacy-number-list,
+  .privacy-number-list-item::marker {
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .privacy-text-point {
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .privacy-point-list {
+    margin-left: -20px;
+  }
+
+  .privacy-text-uper-list {
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: -20px;
+  }
+
+  .privacy-point-list-text {
+    font-weight: 400;
+    font-size: 24px;
+  }
+}
