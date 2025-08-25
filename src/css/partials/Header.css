@@ -44,7 +44,7 @@ nav {
 }
 
 .nav-item-link {
-  transition: color 0.3s, background-color 0.3s;
+  transition: text-shadow 0.3s ease, transform 0.2s ease;
 }
 
 
