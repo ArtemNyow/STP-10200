@@ -1,0 +1,1 @@
+{"version":3,"file":"loader-DJhdar1M.js","sources":["../../src/js/loader.js"],"sourcesContent":["\n      window.addEventListener('load', () => {\n        document.body.classList.add('js-loaded');\n      });\n"],"names":[],"mappings":"ssBACM,OAAO,iBAAiB,OAAQ,IAAM,CACpC,SAAS,KAAK,UAAU,IAAI,WAAW,CAC/C,CAAO"}
