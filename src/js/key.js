@@ -4,15 +4,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';
 
-document.addEventListener("DOMContentLoaded", () => {
-  const keySwiper = new Swiper(".js-swiper", {
+document.addEventListener('DOMContentLoaded', () => {
+  const keySwiper = new Swiper('.js-swiper', {
     modules: [Navigation, EffectCoverflow],
-    direction: "vertical",
+    direction: 'vertical',
     slidesPerView: 3,
     slidesPerGroup: 1,
-     resistanceRatio: 0,      
+    resistanceRatio: 0,
     spaceBetween: 14,
- loop:true,
+    loop: true,
 
     breakpoints: {
       320: {
@@ -26,11 +26,11 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
 
-  document.querySelector('.key-btn-up').addEventListener('click', () => {
+  document.querySelector('.js-key-btn-up').addEventListener('click', () => {
     keySwiper.slidePrev();
   });
 
-  document.querySelector('.key-btn-down').addEventListener('click', () => {
+  document.querySelector('.js-key-btn-down').addEventListener('click', () => {
     keySwiper.slideNext();
   });
 });

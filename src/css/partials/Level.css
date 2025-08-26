@@ -1,157 +1,136 @@
 .level-container {
-    background: #2fbef8;
-    padding-top: 36px;
-    padding-bottom: 52px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background: #2fbef8;
+  padding-top: 36px;
+  padding-bottom: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .level-title {
-    font-weight: 600;
-    font-size: 30px;
-    text-align: center;
-    color: #0b0a0a;
-    margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: #0b0a0a;
+  margin-bottom: 20px;
 }
-
-
 
 .level-list {
-    display: flex;
-    gap: 36px;
-    margin-bottom: 36px;
-
+  display: flex;
+  gap: 36px;
+  margin-bottom: 36px;
 }
-
 
 .level-text {
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
-    color: #0b0a0a;
-
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #0b0a0a;
 }
 
-.user-swiper-button-next {
-    rotate: 180deg;
+.js-user-swiper-button-next {
+  rotate: 180deg;
 }
 
 .arrow-btn {
-    border: none;
-    background: none;
+  border: none;
+  background: none;
 }
 
 .icon-arrow {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .js-swiper-level {
-    height: 389px;
-    overflow: hidden;
+  height: 389px;
+  overflow: hidden;
 }
 
-
 .level-sublist {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .level-img {
-    width: 288px;
-    height: 300px;
-    border-radius: 44px;
-    margin-bottom: 12px;
+  width: 288px;
+  height: 300px;
+  border-radius: 44px;
+  margin-bottom: 12px;
 }
 
 .level-subitem {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center !important;
-    width: 288px !important;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center !important;
+  width: 288px !important;
 }
 
 .level-card-subtext {
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    color: #0b0a0a;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #0b0a0a;
 }
-
-
 
 .button-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
-
 @media screen and (min-width: 1200px) {
+  .level-container {
+    padding-top: 68px;
+    padding-bottom: 104px;
+  }
 
-    .level-container {
-        padding-top: 68px;
-        padding-bottom: 104px;
-    }
+  .level-title {
+    font-size: 40px;
+  }
 
-    .level-title {
-        font-size: 40px;
-    }
+  .level-list {
+    gap: 44px;
+    margin-bottom: 69px;
+  }
 
-    .level-list {
-        gap: 44px;
-        margin-bottom: 69px;
-    }
+  .level-text {
+    font-size: 36px;
+    font-weight: 600;
+  }
 
+  .js-swiper-level {
+    width: 1000px;
+    height: 500px;
+  }
 
-    .level-text {
-        font-size: 36px;
-        font-weight: 600;
-    }
+  .button-wrap {
+    flex-direction: row;
+  }
 
-    .js-swiper-level {
+  .js-user-swiper-button-prev {
+    margin-bottom: 200px;
+    rotate: -90deg;
+  }
 
-        width: 1000px;
-        height: 500px;
+  .js-user-swiper-button-next {
+    margin-bottom: 200px;
+    rotate: 90deg;
+  }
 
-    }
+  .level-sublist {
+    flex-direction: row;
+  }
 
-    .button-wrap {
-        flex-direction: row;
-    }
+  .level-subitem {
+    flex-direction: column;
+    justify-content: inherit !important;
+    align-items: center;
+    width: 315px !important;
+  }
 
-
-    .user-swiper-button-prev {
-        margin-bottom: 200px;
-        rotate: -90deg;
-    }
-
-    .user-swiper-button-next {
-        margin-bottom: 200px;
-        rotate: 90deg;
-    }
-
-    .level-sublist {
-        flex-direction: row;
-
-    }
-
-
-    .level-subitem {
-        flex-direction: column;
-        justify-content: inherit !important;
-        align-items: center;
-        width: 315px !important;
-    }
-
-
-    .level-card-subtext {
-        font-size: 24px;
-
-    }
-
-
+  .level-card-subtext {
+    font-size: 24px;
+  }
 }
