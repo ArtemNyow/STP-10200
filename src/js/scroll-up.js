@@ -2,9 +2,9 @@ const scrollTopBtn = document.getElementById("js-scrollTopBtn");
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 300) {
-    scrollTopBtn.classList.add("show");
+    scrollTopBtn.classList.add("js-show");
   } else {
-    scrollTopBtn.classList.remove("show");
+    scrollTopBtn.classList.remove("js-show");
   }
 });
 

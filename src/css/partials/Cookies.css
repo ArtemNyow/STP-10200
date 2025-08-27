@@ -14,7 +14,7 @@
   background: linear-gradient(180deg, #c37bfd 0%, #fdd976 100%);
 }
 
-.js-cookie-banner.show {
+.js-cookie-banner.js-show {
   display: flex;
 }
 

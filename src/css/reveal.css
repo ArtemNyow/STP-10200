@@ -5,7 +5,7 @@
     transition: transform 0.4s ease-out, opacity 0.4s ease-out, filter 0.4s ease-out;
 }
 
-.js-reveal.active {
+.js-reveal.js-active {
     opacity: 1;
     transform: translateY(0);
     filter: blur(0);

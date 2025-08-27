@@ -4,7 +4,7 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry, index) => {
     if (entry.isIntersecting) {
       setTimeout(() => {
-        entry.target.classList.add("active");
+        entry.target.classList.add("js-active");
       }, index * 50); 
       observer.unobserve(entry.target);
     }
