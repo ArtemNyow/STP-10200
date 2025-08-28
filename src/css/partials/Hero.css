@@ -19,7 +19,9 @@
 .hero {
     width: 100%;
     max-width: 1200px;
-
+    background-image: url("/img/Hero/1x/hero-bg@1x.webp");
+    background-image: -webkit-image-set(url("/img/Hero/1x/hero-bg@1x.webp") 1x,
+            url("/img/Hero/2x/hero-bg@2x.webp") 2x);
     background-image: image-set(url("/img/Hero/1x/hero-bg@1x.webp") 1x,
             url("/img/Hero/2x/hero-bg@2x.webp") 2x);
     background-size: cover;
