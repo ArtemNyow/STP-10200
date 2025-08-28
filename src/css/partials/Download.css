@@ -26,6 +26,9 @@
 .download-bg {
   position: absolute;
   inset: 0;
+  background-image: url('/img/Download/1x/Tickets@1x.webp');
+  background-image: -webkit-image-set(url('/img/Download/1x/Tickets@1x.webp') 1x,
+      url('/img/Download/2x/Tickets@2x.webp') 2x);
   background-image: image-set(url('/img/Download/1x/Tickets@1x.webp') 1x,
       url('/img/Download/2x/Tickets@2x.webp') 2x);
   background-size: cover;

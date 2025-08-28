@@ -11,6 +11,10 @@
   position: absolute;
   inset: 0;
   background-image: url('/img/Key/1x/bg-key@1x.webp');
+  background-image: -webkit-image-set(url('/img/Key/1x/bg-key@1x.webp') 1x,
+      url('/img/Key/2x/bg-key@2x.webp') 2x);
+  background-image: image-set(url('/img/Key/1x/bg-key@1x.webp') 1x,
+      url('/img/Key/2x/bg-key@2x.webp') 2x);
   background-size: cover;
   background-position: center;
   opacity: 0.2;
@@ -94,23 +98,19 @@
 .js-swiper {
   height: 320px;
   width: 300px;
-  -webkit-mask-image: linear-gradient(
-    to bottom,
-    transparent 0%,
-    black 5%,
-    black 95%,
-    transparent 100%
-  );
+  -webkit-mask-image: linear-gradient(to bottom,
+      transparent 0%,
+      black 5%,
+      black 95%,
+      transparent 100%);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
 
-  mask-image: linear-gradient(
-    to bottom,
-    transparent 0%,
-    black 5%,
-    black 95%,
-    transparent 100%
-  );
+  mask-image: linear-gradient(to bottom,
+      transparent 0%,
+      black 5%,
+      black 95%,
+      transparent 100%);
   mask-repeat: no-repeat;
   mask-size: 100% 100%;
   overflow: hidden;
