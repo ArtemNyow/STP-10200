@@ -1,11 +1,8 @@
 .footer-container {
-
   background: linear-gradient(180deg, #c37bfd 0%, #fdd976 100%);
-
-
   padding-top: 30px;
   padding-bottom: 22px;
-  margin: o auto;
+  margin: 0 auto;
   text-align: center;
 }
 

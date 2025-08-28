@@ -156,6 +156,9 @@
         left: 280px;
         width: 114px;
         height: 114px;
+        background-image: url("/img/About/1x/Moon@1x.webp");
+        background-image: -webkit-image-set(url("/img/About/1x/Moon@1x.webp") 1x,
+                url("/img/About/2x/Moon@2x.webp") 2x);
         background-image: image-set(url("/img/About/1x/Moon@1x.webp") 1x,
                 url("/img/About/2x/Moon@2x.webp") 2x);
         background-size: contain;
@@ -170,6 +173,9 @@
         right: 15px;
         width: 55px;
         height: 64px;
+        background-image: url("/img/About/1x/Сircle@1x.webp");
+        background-image: -webkit-image-set(url("/img/About/1x/Сircle@1x.webp") 1x,
+                url("/img/About/2x/Сircle@2x.webp") 2x);
         background-image: image-set(url("/img/About/1x/Сircle@1x.webp") 1x,
                 url("/img/About/2x/Сircle@2x.webp") 2x);
         background-size: contain;
@@ -184,6 +190,9 @@
         left: -55px;
         width: 112px;
         height: 112px;
+        background-image: url("/img/About/1x/Park@1x.webp");
+        background-image: -webkit-image-set(url("/img/About/1x/Park@1x.webp") 1x,
+                url("/img/About/2x/Park@2x.webp") 2x);
         background-image: image-set(url("/img/About/1x/Park@1x.webp") 1x,
                 url("/img/About/2x/Park@2x.webp") 2x);
         background-size: contain;
